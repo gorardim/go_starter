@@ -1,0 +1,1596 @@
+- user_id: 71
+  customer_id: "test14"
+  pid: 1
+  invite_code: "test14"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test14"
+  nickname: "test14"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "50000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 70
+  customer_id: "test13"
+  pid: 71
+  invite_code: "test13"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test13"
+  nickname: "test13"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 69
+  customer_id: "test12"
+  pid: 70
+  invite_code: "test12"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test12"
+  nickname: "test12"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "5000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 68
+  customer_id: "test11"
+  pid: 69
+  invite_code: "test11"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test11"
+  nickname: "test11"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 67
+  customer_id: "test10"
+  pid: 69
+  invite_code: "test10"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test10"
+  nickname: "test10"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "5000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 66
+  customer_id: "test9"
+  pid: 68
+  invite_code: "test9"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test9"
+  nickname: "test9"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "5000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 65
+  customer_id: "test8"
+  pid: 68
+  invite_code: "test8"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test8"
+  nickname: "test8"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 64
+  customer_id: "test7"
+  pid: 69
+  invite_code: "test7"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test7"
+  nickname: "test7"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "10000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 63
+  customer_id: "test6"
+  pid: 64
+  invite_code: "test6"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test6"
+  nickname: "test6"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 62
+  customer_id: "test5"
+  pid: 69
+  invite_code: "test5"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test5"
+  nickname: "test5"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 61
+  customer_id: "test4"
+  pid: 69
+  invite_code: "test4"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test4"
+  nickname: "test4"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "10000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 60
+  customer_id: "test3"
+  pid: 64
+  invite_code: "test3"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test3"
+  nickname: "test3"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "2000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 59
+  customer_id: "test2"
+  pid: 63
+  invite_code: "test2"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test2"
+  nickname: "test2"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 17:43:38
+
+- user_id: 58
+  customer_id: "test1"
+  pid: 63
+  invite_code: "test1"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test1"
+  nickname: "test1"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "2000.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 20:22:34
+
+- user_id: 57
+  customer_id: "234419745"
+  pid: 26
+  invite_code: "YW0057"
+  is_club_owner: "N"
+  status: "ON"
+  username: "zihao"
+  nickname: "zihao"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/Wmzfgjhrnx2jtjzC.png"
+  sex: ""
+  password: "$2a$10$7m5YyfaSHaJIUi9DqLe9Je7bWgZVk.XjpUZCuZ3SXxeSmQPsPnzo2"
+  pay_password: "$2a$10$thF0AOC.xtTv4WoqN1/h5.HXxGVk7LpOuqg5Rgu.uoWj8NBt7sbWO"
+  secret_two_fa: ""
+  bsc_address: "TE8dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "8"
+  trc20_address: ""
+  balance: "750000.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "750000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "N"
+  level: 6
+  invest_amount: "0.00"
+  created_at: 2023-12-26 17:43:38
+  updated_at: 2023-12-26 20:22:34
+
+- user_id: 56
+  customer_id: "232115438"
+  pid: 26
+  invite_code: "UE0056"
+  is_club_owner: "N"
+  status: "ON"
+  username: "wangpeng"
+  nickname: "wangpeng"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231226/aTfkTUR7bxxceH5s.png"
+  sex: ""
+  password: "$2a$10$bYpTlXcSi6ApjmcOvmDKI.Z2x7.CwpTBRdMoGH4eTXt8teis6r3Zy"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: "TE9dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "9"
+  trc20_address: ""
+  balance: "814000.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "814000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "N"
+  level: 6
+  invest_amount: "0.00"
+  created_at: 2023-12-26 15:46:21
+  updated_at: 2023-12-26 19:40:27
+
+- user_id: 55
+  customer_id: "845151670"
+  pid: 1
+  invite_code: "TO0055"
+  is_club_owner: "N"
+  status: "ON"
+  username: "abc"
+  nickname: "abc"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231220/7wJpPYYEaBqiBO7O.png"
+  sex: ""
+  password: "$2a$10$1Vb8Im.uz847tXQpIztrDes3fPdxZAx.adLYgHCNoSRfFbu9lqQNO"
+  pay_password: "$2a$10$zcUFQnXg/3BgH/UJWQelEeKntUel5emUZt/yvquTuChhxFwq2m9rq"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-20 20:08:51
+  updated_at: 2023-12-20 21:01:03
+
+- user_id: 54
+  customer_id: "845151669"
+  pid: 1
+  invite_code: "YL0054"
+  is_club_owner: "N"
+  status: "ON"
+  username: "Henry2"
+  nickname: "Henry2"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231219/LdD4AFmxoJVmpQl1.png"
+  sex: ""
+  password: "$2a$10$dliK61UwkD0waIh5MYFtqu8gU62NkuyDtc.r8VqXItQZDRmO8f4Ru"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-19 16:26:15
+  updated_at: 2023-12-19 16:26:15
+
+- user_id: 53
+  customer_id: "845151668"
+  pid: 1
+  invite_code: "NE0053"
+  is_club_owner: "N"
+  status: "ON"
+  username: "xiaolin297533@gmail.com"
+  nickname: "xiaolin297533@gmail.com"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231218/inDvHGXVCjTqjAXr.png"
+  sex: ""
+  password: "$2a$10$0pdftG/qidOzUAnJ3QsVMumm7vVGI.4XJ8ziqfPJkchxwusya7c32"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-18 15:07:06
+  updated_at: 2023-12-19 00:05:53
+
+- user_id: 52
+  customer_id: "845151667"
+  pid: 1
+  invite_code: "UX0052"
+  is_club_owner: "N"
+  status: "ON"
+  username: "Henry"
+  nickname: "Henry"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231218/mBWqmbF9VRwR9zp1.png"
+  sex: ""
+  password: "$2a$10$/3.r2QCm1ov55H1fYLY6QeMvYZhhV.e5b4DEiMWSgyac8mW8di0oC"
+  pay_password: "$2a$10$T4NC/T24XDk6c.SFuYs96.XYWFTMxuC1a40hw3CmoxayGlqT8CqBu"
+  secret_two_fa: ""
+  bsc_address: "TE7dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "7"
+  trc20_address: ""
+  balance: "513500.00"
+  income: "10.79"
+  point: "325.00"
+  free_fee_withdraw_amount: "514000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-18 13:54:17
+  updated_at: 2023-12-27 00:15:01
+
+- user_id: 51
+  customer_id: "845151666"
+  pid: 1
+  invite_code: "CI0051"
+  is_club_owner: "N"
+  status: "ON"
+  username: "123456"
+  nickname: "123456"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231216/hZRAdykcY1X0smnu.png"
+  sex: ""
+  password: "$2a$10$cbb/7GeXMjmrIYtw8vaDgOgVyrKlF25DsZ7jPx157RHLbjSwlG0OW"
+  pay_password: "$2a$10$IAMcOG7W88K3UCz6bARycevkEwt4YaLTuvnP0cQ7cUT52OFpmaDbW"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-16 20:09:51
+  updated_at: 2023-12-17 14:13:33
+
+- user_id: 50
+  customer_id: "845151665"
+  pid: 1
+  invite_code: "DF0050"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry000"
+  nickname: "henry000"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231216/MGrkzVL5Sk7Az2jB.png"
+  sex: ""
+  password: "$2a$10$e.qeEGEagLsju4HADy50Nu9LRxpDvvwSBcPPvTcvgUoprx.SjKVoK"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-16 18:46:14
+  updated_at: 2023-12-16 18:46:14
+
+- user_id: 49
+  customer_id: "845151664"
+  pid: 1
+  invite_code: "MF0049"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry123"
+  nickname: "henry123"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231216/myXl9bzeoX1l9iwX.png"
+  sex: ""
+  password: "$2a$10$9zFl3sFi64bbN1Vj46th3uZbyWstxlp.EattWYo1HdVZKSPspWIsC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-16 18:37:50
+  updated_at: 2023-12-16 18:37:50
+
+- user_id: 48
+  customer_id: "845151663"
+  pid: 1
+  invite_code: "QO0048"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test1216112"
+  nickname: "test1216112"
+  avatar: ""
+  sex: ""
+  password: "$2a$10$Nn9N.T5lcwyY8PzKlYUXCOxPk1zQT0o1vSiYXQw7gngsiwIc5erye"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-16 15:49:20
+  updated_at: 2023-12-19 01:32:51
+
+- user_id: 47
+  customer_id: "845151662"
+  pid: 1
+  invite_code: "FB0047"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test1216111"
+  nickname: "test1216111"
+  avatar: ""
+  sex: ""
+  password: "$2a$10$.M1qEGU.0jWhW.HnULmGRuJK82eM284kVE9JREiJl.eNEk4s2jsXq"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-16 15:43:39
+  updated_at: 2023-12-16 15:43:39
+
+- user_id: 46
+  customer_id: "845151661"
+  pid: 1
+  invite_code: "RI0046"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test1216"
+  nickname: "test1216"
+  avatar: ""
+  sex: ""
+  password: "$2a$10$yoqFpmldmohiiy7bl6e44uhFPV754otU7OHGFJEnszuPt9R./oq9W"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-16 15:41:28
+  updated_at: 2023-12-16 15:41:29
+
+- user_id: 45
+  customer_id: "845151660"
+  pid: 1
+  invite_code: "SN0045"
+  is_club_owner: "N"
+  status: "ON"
+  username: "xiaolang061@gmail.com"
+  nickname: "xiaolang061"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231214/uIsoMntxgn2X5NMv.png"
+  sex: ""
+  password: "$2a$10$xP.HmukOOsaoLtN2TqszJOkPF2Xys27n9dlP3bW/RBsxuT7DdTpBK"
+  pay_password: "$2a$10$57qXCWLbGYR0J80KttLywefp2n0VzQ80Vq9.EVyUTQDsUv8rZ/MBC"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-14 23:03:28
+  updated_at: 2023-12-26 00:28:59
+
+- user_id: 44
+  customer_id: "845151659"
+  pid: 26
+  invite_code: "NA0044"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b8@yopmail.com"
+  nickname: "b8"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/nq5UVNDg1dv3bMei.png"
+  sex: ""
+  password: "$2a$10$WRqekPMVePo7MR1aEJLOXOtRCRzxiJJYet6oD/kBj3mZaPjT5.Oxe"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:26:26
+  updated_at: 2023-12-13 14:26:26
+
+- user_id: 43
+  customer_id: "845151658"
+  pid: 26
+  invite_code: "VS0043"
+  is_club_owner: "Y"
+  status: "ON"
+  username: "b7@yopmail.com"
+  nickname: "b7"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/fMiNlNDn4c7HNmDt.png"
+  sex: ""
+  password: "$2a$10$e6xQXFKMv2GzZffI5irHguEmLowa.Ztms4dR8IpQ.U7vs9FMpeNIe"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:25:43
+  updated_at: 2023-12-27 00:15:03
+
+- user_id: 42
+  customer_id: "845151657"
+  pid: 26
+  invite_code: "HO0042"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b6@yopmail.com"
+  nickname: "b6"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/Fo3bpchhmQoTcHsG.png"
+  sex: ""
+  password: "$2a$10$mreqHlktbgQDDQ7dcRPQAuq.9BaMTCpqGpSY/ReZk02uOuswZVAMy"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:25:02
+  updated_at: 2023-12-13 14:25:03
+
+- user_id: 41
+  customer_id: "845151656"
+  pid: 26
+  invite_code: "XT0041"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b5@yopmail.com"
+  nickname: "b5"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/PzpFJwODmv5PgI0t.png"
+  sex: ""
+  password: "$2a$10$yOuu8Sxwxa6plo4T636NhehqgdN3tiRuohHzo4JvwLoTZsGSmWtrK"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:23:57
+  updated_at: 2023-12-13 14:23:58
+
+- user_id: 40
+  customer_id: "845151655"
+  pid: 26
+  invite_code: "FQ0040"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b4@yopmail.com"
+  nickname: "b4"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/VA3RK57OtiWh5K5m.png"
+  sex: ""
+  password: "$2a$10$1YSsBmcEJYn.wH65j5MxJeRfbnEmGO4SSLTvx0scmphii9P95RKsy"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:23:14
+  updated_at: 2023-12-13 14:23:15
+
+- user_id: 39
+  customer_id: "845151654"
+  pid: 26
+  invite_code: "LT0039"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b3@yopmail.com"
+  nickname: "b3"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/C1TfsyVZqARKxrkl.png"
+  sex: ""
+  password: "$2a$10$ZWJ0ohSeEbKKBLbmhjGmLulV5GI56G25DNxf4L3BRX66zg4aC1rEu"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:22:30
+  updated_at: 2023-12-13 14:22:31
+
+- user_id: 38
+  customer_id: "845151653"
+  pid: 26
+  invite_code: "QL0038"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b2@yopmail.com"
+  nickname: "b2"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/uboTN1ipLPSCAVaQ.png"
+  sex: ""
+  password: "$2a$10$RANgyEY2hH8NcRmZfDOljOGUvqygeuFn8UKdifI6Wj2bYdKN3.zs6"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:21:47
+  updated_at: 2023-12-13 14:21:47
+
+- user_id: 37
+  customer_id: "845151652"
+  pid: 26
+  invite_code: "DH0037"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b1@yopmail.com"
+  nickname: "b1"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/puBMB7h5bt7DbFYk.png"
+  sex: ""
+  password: "$2a$10$xLRsLRVB4w3ecIHkncjZ/.TbtBOjf5SXwuGGd3/dx/dKbUvVFoCDi"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:20:41
+  updated_at: 2023-12-13 14:20:41
+
+- user_id: 36
+  customer_id: "845151651"
+  pid: 26
+  invite_code: "SR0036"
+  is_club_owner: "N"
+  status: "ON"
+  username: "b@yopmail.com"
+  nickname: "b"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231213/ptkrnZnYBDQCjcGd.png"
+  sex: ""
+  password: "$2a$10$TngcBlPx0UxajGdlmEkUcu4k3qludp1niyShNmZKNovTcwfncq.Te"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-12-13 14:19:28
+  updated_at: 2023-12-13 14:19:28
+
+- user_id: 35
+  customer_id: "845151650"
+  pid: 1
+  invite_code: "SJ0035"
+  is_club_owner: "N"
+  status: "ON"
+  username: "ali01@yopmail.com"
+  nickname: "ali01"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231205/hB5ij52LQR0C8bNJ.png"
+  sex: ""
+  password: "$2a$10$v7z0Zy0eJF0P0MFoj5WWAe2y40ZVFo9Hxtk4e/NhKPbKzZiTraBky"
+  pay_password: "$2a$10$C11.x7UbYsonp7lo4LwFaO3Hd.grvpB9FI8nNzi.bCP1PeVMCyTHu"
+  secret_two_fa: "5ZQ2XQUMAA2VP4BRWZ5MHTHXYWGMZI6F"
+  bsc_address: "TE6dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "6"
+  trc20_address: ""
+  balance: "260500.00"
+  income: "26.74"
+  point: "793.01"
+  free_fee_withdraw_amount: "261000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-12-05 20:08:15
+  updated_at: 2023-12-27 00:15:01
+
+- user_id: 34
+  customer_id: "845151649"
+  pid: 1
+  invite_code: "KT0034"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry8@yopmail.com"
+  nickname: "henry8"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231127/SJWqO0cNa77OIu4O.png"
+  sex: ""
+  password: "$2a$10$tmkVfE0K9erp7euePGuvr.f1plaqh/RUDhy4bHZBsdHnlUmstAvoC"
+  pay_password: "$2a$10$HoBKh/uFhIWNj2VaHHN8o.SDow2W7QCYFIoHxvoUaB5lGM393HenO"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-27 14:22:28
+  updated_at: 2023-11-27 17:43:52
+
+- user_id: 33
+  customer_id: "845151648"
+  pid: 1
+  invite_code: "QN0033"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry7@yopmail.com"
+  nickname: "henry7"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231127/sx1vg6CPZ8WzZKxN.png"
+  sex: ""
+  password: "$2a$10$3fAcycaoKuxUeLLoZpUHbun9gu9AjbWFzDo4Hl2vhwGL7mjog2EX."
+  pay_password: "$2a$10$yWasMgTjlLZ2E7VbbVHWleexPc9/aOfa6DHKPl/hseFEpcjp0wxdS"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-27 12:32:56
+  updated_at: 2023-11-27 14:19:30
+
+- user_id: 32
+  customer_id: "845151647"
+  pid: 1
+  invite_code: "HL0032"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry6@yopmail.com"
+  nickname: "henry6"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231118/c42A5RETMGoFjlbu.png"
+  sex: ""
+  password: "$2a$10$CwQDnxEmb2/GaK2eMZQyfeI0hbrw65zSmDRNjpG69DZhgRdh8DPgy"
+  pay_password: "$2a$10$PNjZYGA15Drjb9Be9GOsFO.PDp8dijVerh1t3LH5li0cWpRZNYdHC"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-18 14:53:49
+  updated_at: 2023-12-02 20:18:52
+
+- user_id: 31
+  customer_id: "845151646"
+  pid: 1
+  invite_code: "TB0031"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry5@yopmail.com"
+  nickname: "henry5"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231113/O6DgFp7EQCArdEzk.png"
+  sex: ""
+  password: "$2a$10$QeSicSt4REVjFIO4CyrxUu0jE2FUmQQPy21AFv9xKqZyoPc7a18cW"
+  pay_password: "$2a$10$6gtE7xBVHD8P4Nfs/cBwx.NNY/yI/VmV2Qoye/bquRdUmIX3f6qCC"
+  secret_two_fa: ""
+  bsc_address: "TE4dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "2"
+  trc20_address: ""
+  balance: "202020.00"
+  income: "190.70"
+  point: "7247.50"
+  free_fee_withdraw_amount: "207000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "5000.00"
+  created_at: 2023-11-13 16:39:02
+  updated_at: 2023-12-27 00:15:01
+
+- user_id: 30
+  customer_id: "845151645"
+  pid: 26
+  invite_code: "JG0030"
+  is_club_owner: "N"
+  status: "ON"
+  username: "a3@yopmail.com"
+  nickname: "a3"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/rc96kXyZPHjNFK8j.png"
+  sex: ""
+  password: "$2a$10$O.dwjlzTg0hs5.JSdksnWuqLhlLv8n6ZHjlvsf9JQCMsiFCyCC1cS"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-10 15:14:23
+  updated_at: 2023-11-10 15:14:23
+
+- user_id: 29
+  customer_id: "845151644"
+  pid: 26
+  invite_code: "CQ0029"
+  is_club_owner: "N"
+  status: "ON"
+  username: "a2@yopmail.com"
+  nickname: "a2"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/xXL1yYQvD9J272xE.png"
+  sex: ""
+  password: "$2a$10$O.dwjlzTg0hs5.JSdksnWuqLhlLv8n6ZHjlvsf9JQCMsiFCyCC1cS"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-10 15:00:25
+  updated_at: 2023-11-10 15:00:25
+
+- user_id: 28
+  customer_id: "845151643"
+  pid: 26
+  invite_code: "FG0028"
+  is_club_owner: "N"
+  status: "ON"
+  username: "a1@yopmail.com"
+  nickname: "a1"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/OvSpsHwgCnB1yeAP.png"
+  sex: ""
+  password: "$2a$10$2BXq2sz9yOZ9pjL7eRCKhuARZRa7AbV4NDWXTYHoljJ7CJo2PH.Si"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-10 14:55:40
+  updated_at: 2023-12-05 19:37:19
+
+- user_id: 27
+  customer_id: "845151642"
+  pid: 1
+  invite_code: "YQ0027"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry4@yopmail.com"
+  nickname: "henry4"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/aoyNUIQBcs8K2kor.png"
+  sex: ""
+  password: "$2a$10$OJzSYiCvjOFUH.iArOXXnOrv2hEnxha/lXZWDg5Jy4n4QRT/0nMFe"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-10 14:53:37
+  updated_at: 2023-11-10 14:55:04
+
+- user_id: 26
+  customer_id: "845151641"
+  pid: 1
+  invite_code: "PL0026"
+  is_club_owner: "Y"
+  status: "ON"
+  username: "a@yopmail.com"
+  nickname: "a"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/MOTLaJBTBuagq1Uj.png"
+  sex: ""
+  password: "$2a$10$QeSicSt4REVjFIO4CyrxUu0jE2FUmQQPy21AFv9xKqZyoPc7a18cW"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: "TE5dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "5"
+  trc20_address: ""
+  balance: "117000.00"
+  income: "0.00"
+  point: "210.00"
+  free_fee_withdraw_amount: "117000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "10000000.00"
+  created_at: 2023-11-10 14:28:18
+  updated_at: 2023-12-27 00:15:03
+
+- user_id: 25
+  customer_id: "845151640"
+  pid: 1
+  invite_code: "ST0025"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry3@yopmail.com"
+  nickname: "henry3"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/lon0OfPmQF5gwTcz.png"
+  sex: ""
+  password: "$2a$10$Migj3fps4d5wA2jOcU3OIusBaCsRkGhsnHRsXiOb7/bXE9xrtMQyi"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-10 12:34:38
+  updated_at: 2023-11-10 12:34:38
+
+- user_id: 24
+  customer_id: "845151639"
+  pid: 1
+  invite_code: "LR0024"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry2@yopmail.com"
+  nickname: "henry2"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/YaGsld1wxAaQHPeJ.png"
+  sex: ""
+  password: "$2a$10$TsloPhBgU/JFw5/3m2JfROJPLFzYlv5pUmtiXq8sJsosqSocXow4W"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-11-10 12:26:35
+  updated_at: 2023-12-04 14:40:14
+
+- user_id: 23
+  customer_id: "845151638"
+  pid: 1
+  invite_code: "UX0023"
+  is_club_owner: "N"
+  status: "ON"
+  username: "henry1@yopmail.com"
+  nickname: "henry1"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231028/P7zTMs0wQdT5IC0l.png"
+  sex: ""
+  password: "$2a$10$uoDqsfEvS30my8wynjSbqusbz2KojJjIWiNy1YaNxyIpimHH8GQDq"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-28 14:28:25
+  updated_at: 2023-10-28 14:56:37
+
+- user_id: 22
+  customer_id: "845151637"
+  pid: 1
+  invite_code: "TB0022"
+  is_club_owner: "N"
+  status: "ON"
+  username: "mrhenry9104@gmail.com"
+  nickname: "mrhenry9104"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231028/gIF3cZ1qEOJM9lzF.png"
+  sex: ""
+  password: "$2a$10$tmWQelndLZHN6PiTyuBrievJs0JPq11jOpRt/4CKDGhnPuzkkYqLO"
+  pay_password: "$2a$10$Mv9c5kkui8QAuozC9QW.5efEOUTEPPTGySMXS.fEW7D4ZctMPBYea"
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-28 14:15:29
+  updated_at: 2023-11-27 12:28:19
+
+- user_id: 21
+  customer_id: "845151636"
+  pid: 1
+  invite_code: "HD0021"
+  is_club_owner: "N"
+  status: "ON"
+  username: "foy2@yopmail.com"
+  nickname: "foy2"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231027/kSBimnTXBerOWMXd.png"
+  sex: ""
+  password: "$2a$10$VzaIMuwDwVJo1ft5RRcnneKbpsKLaGGwwr5PhTUoVmBreSnGCuxES"
+  pay_password: ""
+  secret_two_fa: "CEZAKGX7YENZK4JXD7UA6SOAQWHOSBFS"
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-27 19:51:54
+  updated_at: 2023-10-28 17:26:11
+
+- user_id: 17
+  customer_id: "845151632"
+  pid: 1
+  invite_code: "OX0017"
+  is_club_owner: "N"
+  status: "ON"
+  username: "fayez97@gmail.com"
+  nickname: "fayez97"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/rc96kXyZPHjNFK8j.png"
+  sex: ""
+  password: "$2a$10$KPktWY0EHhT4kebq8VDdFuXlpd2Mg0wjCnDQ6UyEgYop.xqVJEYk2"
+  pay_password: "$2a$10$gLVORxP1E8CzyH7n3YrbseIUzVK0p8ZET7qCbozzdsCpJP4Sk6d0S"
+  secret_two_fa: ""
+  bsc_address: "TE2dsbzf2r2YMUMtCynteDJSTobWgtJx2k"
+  bsc_uid: "1"
+  trc20_address: ""
+  balance: "65500.00"
+  income: "31.78"
+  point: "856.24"
+  free_fee_withdraw_amount: "66000.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "500.00"
+  created_at: 2023-10-27 19:45:37
+  updated_at: 2023-12-27 00:15:01
+
+- user_id: 5
+  customer_id: "845151620"
+  pid: 1
+  invite_code: "FT0005"
+  is_club_owner: "N"
+  status: "ON"
+  username: "foy1@yopmail.com"
+  nickname: "foy1"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/rc96kXyZPHjNFK8j.png"
+  sex: ""
+  password: "$2a$10$O.dwjlzTg0hs5.JSdksnWuqLhlLv8n6ZHjlvsf9JQCMsiFCyCC1cS"
+  pay_password: ""
+  secret_two_fa: "UFDAMSYURVMMNMCMXMNOFSNUXNZ2IFID"
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-26 15:55:24
+  updated_at: 2023-10-28 17:23:14
+
+- user_id: 4
+  customer_id: "845151619"
+  pid: 1
+  invite_code: "OM0004"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test1111@test1"
+  nickname: "test1111"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/rc96kXyZPHjNFK8j.png"
+  sex: ""
+  password: "$2a$10$81omk3wWt.rDvNAh6bdyG.LencvD3tsWTlHpvBCWoPITUeik99Fke"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-24 14:59:03
+  updated_at: 2023-10-24 14:59:04
+
+- user_id: 3
+  customer_id: "845151618"
+  pid: 2
+  invite_code: "BA0003"
+  is_club_owner: "N"
+  status: "OFF"
+  username: "test111@test1"
+  nickname: "test111"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231027/kSBimnTXBerOWMXd.png"
+  sex: ""
+  password: "$2a$10$6lxEKGzSUL9Na7WvokKHTe5E/HYw1c7V2crYiTgfhiwNw9qATaNum"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-22 23:26:48
+  updated_at: 2023-12-23 14:41:57
+
+- user_id: 2
+  customer_id: "845151617"
+  pid: 1
+  invite_code: "BB0002"
+  is_club_owner: "N"
+  status: "ON"
+  username: "test11@test1"
+  nickname: "test11"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231028/gIF3cZ1qEOJM9lzF.png"
+  sex: ""
+  password: "$2a$10$7jUANG05Saq/L8YD2ZDDteiKr02enDMXnlBNxNYLkIClB78B7UKfS"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "0.00"
+  income: "0.00"
+  point: "0.00"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "0.00"
+  created_at: 2023-10-22 23:21:16
+  updated_at: 2023-10-22 23:21:17
+
+- user_id: 1
+  customer_id: "845151616"
+  pid: 0
+  invite_code: "BB0001"
+  is_club_owner: "Y"
+  status: "ON"
+  username: "test1@test1"
+  nickname: "test1"
+  avatar: "https://cdn-test.ykypcz.vip/images/20231110/aoyNUIQBcs8K2kor.png"
+  sex: ""
+  password: "$2a$10$04oTaFU68NYX1ckREcRcbOb2GO3DI4gylwRZmP0Xez8fSzRK7WJbC"
+  pay_password: ""
+  secret_two_fa: ""
+  bsc_address: ""
+  bsc_uid: ""
+  trc20_address: ""
+  balance: "192.99"
+  income: "312.48"
+  point: "2265.63"
+  free_fee_withdraw_amount: "0.00"
+  is_valid: "Y"
+  kyc_status: "UNAUTH"
+  enable_level_grade: "Y"
+  level: 0
+  invest_amount: "100000.00"
+  created_at: 2023-10-22 23:07:20
+  updated_at: 2023-12-27 00:15:05
+

@@ -1,0 +1,70 @@
+- id: 15
+  key: "about_us_link"
+  value: "https://www.unitedtourism.xyz/about.html"
+  description: ""
+  created_at: 2023-12-26 09:12:11
+  updated_at: 2023-12-26 19:27:17
+
+- id: 14
+  key: "duration_and_rate_invest_contract"
+  value: "[{\"days\":30,\"rate\":0.05},{\"days\":30,\"rate\":0.01},{\"days\":30,\"rate\":0.03},{\"days\":90,\"rate\":0.08},{\"days\":180,\"rate\":0.42},{\"days\":270,\"rate\":0.72},{\"days\":360,\"rate\":1.08},{\"days\":720,\"rate\":2.4}]"
+  description: "duration_and_rate_invest_contract"
+  created_at: 2023-12-23 14:30:21
+  updated_at: 2023-12-26 15:41:00
+
+- id: 13
+  key: "deposit_service_charge_rate"
+  value: "0.001"
+  description: "deposit service chargerate"
+  created_at: 2023-12-13 04:17:46
+  updated_at: 2023-12-13 04:17:46
+
+- id: 12
+  key: "deposit_currency_exchange_rate"
+  value: "[{\"rate\":7,\"name\":\"CNY\",\"symbol\":\"¥\"}]"
+  description: "Deposit Currency Exchange Rate"
+  created_at: 2023-11-21 12:44:44
+  updated_at: 2023-11-21 12:44:44
+
+- id: 7
+  key: "usdt_withdraw_rate"
+  value: "1"
+  description: ""
+  created_at: 2023-12-13 04:17:46
+  updated_at: 2023-12-13 04:17:46
+
+- id: 6
+  key: "balance_withdraw_service_charge"
+  value: "0.01"
+  description: "balance_withdraw_service_charge"
+  created_at: 2023-12-10 18:51:37
+  updated_at: 2023-12-10 18:51:38
+
+- id: 5
+  key: "income_withdraw_point_charge"
+  value: "0.05"
+  description: "income_withdraw_point_charge"
+  created_at: 2023-12-10 18:51:37
+  updated_at: 2023-12-10 18:51:38
+
+- id: 4
+  key: "currency_exchange_rate"
+  value: "[{\"rate\":7,\"name\":\"CNY\",\"symbol\":\"¥\"},{\"rate\":3469.0978,\"name\":\"MNT\",\"symbol\":\"MNT\"},{\"rate\":33.5,\"name\":\"THB\",\"symbol\":\"THB\"}]"
+  description: "Currency Exchange Rate"
+  created_at: 2023-11-21 12:44:44
+  updated_at: 2023-11-21 12:44:44
+
+- id: 3
+  key: "usdt_charge_rate"
+  value: "1"
+  description: "USDT charge rate"
+  created_at: 2023-11-21 08:58:18
+  updated_at: 2023-11-21 08:58:18
+
+- id: 2
+  key: "usdt_deposit_fee_rate"
+  value: "1"
+  description: "USDT deposit fee rate"
+  created_at: 2023-11-04 06:56:54
+  updated_at: 2023-11-04 06:56:54
+

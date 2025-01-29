@@ -1,0 +1,2582 @@
+openapi: 3.0.0
+info:
+    title: admin api
+    version: 1.0.0
+tags:
+    - description: AdminImage
+      name: AdminImageServer
+    - description: should implement.
+      name: AdminVideoServer
+    - description: ' 授权服务 (release)'
+      name: AuthServer
+    - description: ' 后台api (release)'
+      name: CenterApiServer
+    - description: ' 菜单服务 (release)'
+      name: CenterMenuServer
+    - description: ' 角色服务 (release)'
+      name: CenterRoleServer
+    - description: ' 后台用户服务 (release)'
+      name: CenterUserServer
+    - description: ""
+      name: SettingServer
+    - description: ""
+      name: UserServer
+paths:
+    /admin/admin_image/list:
+        post:
+            description: AdminImageList
+            operationId: AdminImageServer_List
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AdminImageListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AdminImageListResponse'
+                    description: OK
+            summary: AdminImageList
+            tags:
+                - AdminImageServer
+    /admin/admin_video/list:
+        post:
+            description: 视频列表
+            operationId: AdminVideoServer_List
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AdminVideoListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AdminVideoListResponse'
+                    description: OK
+            summary: 视频列表
+            tags:
+                - AdminVideoServer
+    /admin/auth/captcha:
+        post:
+            description: 验证码
+            operationId: AuthServer_Captcha
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthCaptchaRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthCaptchaResponse'
+                    description: OK
+            summary: 验证码
+            tags:
+                - AuthServer
+    /admin/auth/login:
+        post:
+            description: 用户登陆
+            operationId: AuthServer_AuthLogin
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthLoginRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthLoginResponse'
+                    description: OK
+            summary: 用户登陆
+            tags:
+                - AuthServer
+    /admin/auth/menus:
+        post:
+            description: 用户菜单
+            operationId: AuthServer_AuthMenus
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthMenusRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthMenusResponse'
+                    description: OK
+            summary: 用户菜单
+            tags:
+                - AuthServer
+    /admin/center/api/all:
+        post:
+            description: 后台api列表
+            operationId: CenterApiServer_All
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterApiAllRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterApiAllResponse'
+                    description: OK
+            summary: 后台api列表
+            tags:
+                - CenterApiServer
+    /admin/center/api/create:
+        post:
+            description: 创建后台api
+            operationId: CenterApiServer_Create
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterApiCreateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterApiCreateResponse'
+                    description: OK
+            summary: 创建后台api
+            tags:
+                - CenterApiServer
+    /admin/center/api/list:
+        post:
+            description: 后台api列表
+            operationId: CenterApiServer_List
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterApiListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterApiListResponse'
+                    description: OK
+            summary: 后台api列表
+            tags:
+                - CenterApiServer
+    /admin/center/api/switch/status:
+        post:
+            description: 切换后台api状态
+            operationId: CenterApiServer_SwitchStatus
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterApiSwitchStatusRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterApiSwitchStatusResponse'
+                    description: OK
+            summary: 切换后台api状态
+            tags:
+                - CenterApiServer
+    /admin/center/api/update:
+        post:
+            description: 更新后台api
+            operationId: CenterApiServer_Update
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterApiUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterApiUpdateResponse'
+                    description: OK
+            summary: 更新后台api
+            tags:
+                - CenterApiServer
+    /admin/center/menu/all:
+        post:
+            description: 菜单列表
+            operationId: CenterMenuServer_All
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuAllRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuAllResponse'
+                    description: OK
+            summary: 菜单列表
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/bind/api/all:
+        post:
+            description: 绑定菜单api列表
+            operationId: CenterMenuServer_BindApiAll
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuBindApiAllRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuBindApiAllResponse'
+                    description: OK
+            summary: 绑定菜单api列表
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/bind/api/create:
+        post:
+            description: 绑定菜单API
+            operationId: CenterMenuServer_BindApiCreate
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuBindApiCreateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuBindApiCreateResponse'
+                    description: OK
+            summary: 绑定菜单API
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/bind/api/delete:
+        post:
+            description: 删除绑定菜单api
+            operationId: CenterMenuServer_BindApiDelete
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuBindApiDeleteRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuBindApiDeleteResponse'
+                    description: OK
+            summary: 删除绑定菜单api
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/bind/api/list:
+        post:
+            description: 绑定菜单api列表
+            operationId: CenterMenuServer_BindApiList
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuBindApiListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuBindApiListResponse'
+                    description: OK
+            summary: 绑定菜单api列表
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/create:
+        post:
+            description: 创建菜单
+            operationId: CenterMenuServer_Create
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuCreateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuCreateResponse'
+                    description: OK
+            summary: 创建菜单
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/detail:
+        post:
+            description: 菜单详情
+            operationId: CenterMenuServer_Detail
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuDetailRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuDetailResponse'
+                    description: OK
+            summary: 菜单详情
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/switch/status:
+        post:
+            description: 切换菜单状态
+            operationId: CenterMenuServer_SwitchStatus
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuSwitchStatusRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuSwitchStatusResponse'
+                    description: OK
+            summary: 切换菜单状态
+            tags:
+                - CenterMenuServer
+    /admin/center/menu/update:
+        post:
+            description: 更新菜单
+            operationId: CenterMenuServer_Update
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterMenuUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterMenuUpdateResponse'
+                    description: OK
+            summary: 更新菜单
+            tags:
+                - CenterMenuServer
+    /admin/center/role/all:
+        post:
+            description: 角色列表
+            operationId: CenterRoleServer_All
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleAllRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleAllResponse'
+                    description: OK
+            summary: 角色列表
+            tags:
+                - CenterRoleServer
+    /admin/center/role/bind/api/list:
+        post:
+            description: 用户角色绑定api列表
+            operationId: CenterRoleServer_BindApiList
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleBindApiListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleBindApiListResponse'
+                    description: OK
+            summary: 用户角色绑定api列表
+            tags:
+                - CenterRoleServer
+    /admin/center/role/bind/api/update:
+        post:
+            description: 更新用户角色绑定api
+            operationId: CenterRoleServer_BindApiUpdate
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleBindApiUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleBindApiUpdateResponse'
+                    description: OK
+            summary: 更新用户角色绑定api
+            tags:
+                - CenterRoleServer
+    /admin/center/role/bind/menu/list:
+        post:
+            description: 用户角色绑定菜单列表
+            operationId: CenterRoleServer_BindMenuList
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleBindMenuListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleBindMenuListResponse'
+                    description: OK
+            summary: 用户角色绑定菜单列表
+            tags:
+                - CenterRoleServer
+    /admin/center/role/bind/menu/update:
+        post:
+            description: 更新用户角色绑定菜单
+            operationId: CenterRoleServer_BindMenuUpdate
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleBindMenuUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleBindMenuUpdateResponse'
+                    description: OK
+            summary: 更新用户角色绑定菜单
+            tags:
+                - CenterRoleServer
+    /admin/center/role/create:
+        post:
+            description: 创建用户角色
+            operationId: CenterRoleServer_Create
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleCreateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleCreateResponse'
+                    description: OK
+            summary: 创建用户角色
+            tags:
+                - CenterRoleServer
+    /admin/center/role/list:
+        post:
+            description: 角色列表
+            operationId: CenterRoleServer_List
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleListResponse'
+                    description: OK
+            summary: 角色列表
+            tags:
+                - CenterRoleServer
+    /admin/center/role/switch/status:
+        post:
+            description: 切换用户角色状态
+            operationId: CenterRoleServer_SwitchStatus
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleSwitchStatusRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleSwitchStatusResponse'
+                    description: OK
+            summary: 切换用户角色状态
+            tags:
+                - CenterRoleServer
+    /admin/center/role/update:
+        post:
+            description: 更新用户角色
+            operationId: CenterRoleServer_Update
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterRoleUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterRoleUpdateResponse'
+                    description: OK
+            summary: 更新用户角色
+            tags:
+                - CenterRoleServer
+    /admin/center/user/create:
+        post:
+            description: 创建用户
+            operationId: CenterUserServer_Create
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserCreateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserCreateResponse'
+                    description: OK
+            summary: 创建用户
+            tags:
+                - CenterUserServer
+    /admin/center/user/list:
+        post:
+            description: 用户列表
+            operationId: CenterUserServer_List
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserListResponse'
+                    description: OK
+            summary: 用户列表
+            tags:
+                - CenterUserServer
+    /admin/center/user/modify/password:
+        post:
+            description: 修改密码
+            operationId: CenterUserServer_ModifyPassword
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserModifyPasswordRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserModifyPasswordResponse'
+                    description: OK
+            summary: 修改密码
+            tags:
+                - CenterUserServer
+    /admin/center/user/role/bind:
+        post:
+            description: 用户角色绑定
+            operationId: CenterUserServer_RoleBind
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserRoleBindRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserRoleBindResponse'
+                    description: OK
+            summary: 用户角色绑定
+            tags:
+                - CenterUserServer
+    /admin/center/user/role/list:
+        post:
+            description: 用户角色列表
+            operationId: CenterUserServer_RoleList
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserRoleListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserRoleListResponse'
+                    description: OK
+            summary: 用户角色列表
+            tags:
+                - CenterUserServer
+    /admin/center/user/role/unbind:
+        post:
+            description: 用户角色解绑
+            operationId: CenterUserServer_RoleUnbind
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserRoleUnbindRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserRoleUnbindResponse'
+                    description: OK
+            summary: 用户角色解绑
+            tags:
+                - CenterUserServer
+    /admin/center/user/switch/status:
+        post:
+            description: 切换用户状态
+            operationId: CenterUserServer_SwitchStatus
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserSwitchStatusRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserSwitchStatusResponse'
+                    description: OK
+            summary: 切换用户状态
+            tags:
+                - CenterUserServer
+    /admin/center/user/update:
+        post:
+            description: 更新用户
+            operationId: CenterUserServer_Update
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/CenterUserUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/CenterUserUpdateResponse'
+                    description: OK
+            summary: 更新用户
+            tags:
+                - CenterUserServer
+    /admin/setting/deposit_cash_rate_country_config:
+        post:
+            description: 充值订单国家配置
+            operationId: SettingServer_DepositCashRateCountryConfig
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/DepositCashRateCountryConfigRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/DepositCashRateCountryConfigResponse'
+                    description: OK
+            summary: 充值订单国家配置
+            tags:
+                - SettingServer
+    /admin/setting/deposit_cash_rate_country_config_push:
+        post:
+            description: 推送充值订单国家配置
+            operationId: SettingServer_DepositCashRateCountryConfigPush
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/DepositCashRateCountryConfigPushRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/DepositCashRateCountryConfigPushResponse'
+                    description: OK
+            summary: 推送充值订单国家配置
+            tags:
+                - SettingServer
+    /admin/setting/deposit_cash_rate_country_config_update:
+        post:
+            description: 更新充值订单国家配置
+            operationId: SettingServer_DepositCashRateCountryConfigUpdate
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/DepositCashRateCountryConfigUpdateRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/DepositCashRateCountryConfigUpdateResponse'
+                    description: OK
+            summary: 更新充值订单国家配置
+            tags:
+                - SettingServer
+    /admin/upload/image:
+        post:
+            description: 图片上传
+            parameters:
+                - description: Authorization token
+                  in: header
+                  name: Authorization
+                  required: true
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    multipart/form-data:
+                        schema:
+                            properties:
+                                file:
+                                    format: binary
+                                    type: string
+                            type: object
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                properties:
+                                    url:
+                                        description: 图片地址
+                                        type: string
+                                type: object
+                    description: OK
+            summary: 图片上传
+            tags:
+                - UploadServer
+    /admin/user/detail:
+        post:
+            description: 用户详情 user detail
+            operationId: UserServer_Detail
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/UserDetailRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/UserDetailResponse'
+                    description: OK
+            summary: 用户详情 user detail
+            tags:
+                - UserServer
+    /admin/user/list:
+        post:
+            description: 用户列表 user list
+            operationId: UserServer_List
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/UserListRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/UserListResponse'
+                    description: OK
+            summary: 用户列表 user list
+            tags:
+                - UserServer
+    /admin/user/reset_2fa:
+        post:
+            description: 重置2fa reset 2fa
+            operationId: UserServer_Reset2fa
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/UserReset2faRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/UserReset2faResponse'
+                    description: OK
+            summary: 重置2fa reset 2fa
+            tags:
+                - UserServer
+    /admin/user/reset_pay_password:
+        post:
+            description: 重置支付密码 reset pay password
+            operationId: UserServer_ResetPayPassword
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/UserResetPayPasswordRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/UserResetPayPasswordResponse'
+                    description: OK
+            summary: 重置支付密码 reset pay password
+            tags:
+                - UserServer
+    /admin/user/safe_question:
+        post:
+            description: 用户安全问题详情 user safe question detail
+            operationId: UserServer_SafeQuestion
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/UserSafeQuestionRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/UserSafeQuestionResponse'
+                    description: OK
+            summary: 用户安全问题详情 user safe question detail
+            tags:
+                - UserServer
+    /admin/user/update_status:
+        post:
+            description: 更新用户状态 user update status
+            operationId: UserServer_UpdateStatus
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/UserUpdateStatusRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/UserUpdateStatusResponse'
+                    description: OK
+            summary: 更新用户状态 user update status
+            tags:
+                - UserServer
+components:
+    schemas:
+        AdminImageListItem:
+            properties:
+                http_url:
+                    description: ""
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: ""
+                    type: string
+            type: object
+        AdminImageListRequest:
+            properties:
+                name:
+                    description: 名字
+                    type: string
+                page:
+                    description: 页码
+                    type: integer
+            type: object
+        AdminImageListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/AdminImageListItem'
+                    type: array
+                total:
+                    description: 总数
+                    type: integer
+            type: object
+        AdminVideoListItem:
+            properties:
+                http_url:
+                    description: http_url 视频地址
+                    type: string
+                id:
+                    description: id 视频id
+                    type: integer
+                name:
+                    description: name 视频名称
+                    type: string
+            type: object
+        AdminVideoListRequest:
+            properties:
+                name:
+                    description: name 视频名称
+                    type: string
+                page:
+                    description: page 页码
+                    type: integer
+                page_size:
+                    description: page_size 每页数量
+                    type: integer
+            type: object
+        AdminVideoListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/AdminVideoListItem'
+                    type: array
+                total:
+                    description: total 总数
+                    type: integer
+            type: object
+        AuthCaptchaRequest:
+            properties: null
+            type: object
+        AuthCaptchaResponse:
+            properties:
+                captcha_id:
+                    description: 验证码ID
+                    type: string
+                captcha_image:
+                    description: 验证码图片
+                    type: string
+            type: object
+        AuthLoginRequest:
+            properties:
+                captcha_id:
+                    description: 验证码ID
+                    type: string
+                password:
+                    description: 密码
+                    type: string
+                username:
+                    description: 用户名
+                    type: string
+                verify_code:
+                    description: 验证码
+                    type: string
+            type: object
+        AuthLoginResponse:
+            properties:
+                nickname:
+                    description: 昵称
+                    type: string
+                token:
+                    description: token
+                    type: string
+                user_id:
+                    description: 用户id
+                    type: string
+                username:
+                    description: 用户名
+                    type: string
+            type: object
+        AuthMenusRequest:
+            properties: null
+            type: object
+        AuthMenusResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterMenuInfo'
+                    type: array
+            type: object
+        AuthUser:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                user_id:
+                    description: ""
+                    type: string
+            type: object
+        CenterApiAllItem:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: api名称
+                    type: string
+                path:
+                    description: api路径
+                    type: string
+            type: object
+        CenterApiAllRequest:
+            properties:
+                status:
+                    description: 状态
+                    type: string
+            type: object
+        CenterApiAllResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterApiAllItem'
+                    type: array
+            type: object
+        CenterApiCreateRequest:
+            properties:
+                name:
+                    description: api名称
+                    type: string
+                path:
+                    description: api路径
+                    type: string
+            type: object
+        CenterApiCreateResponse:
+            properties: null
+            type: object
+        CenterApiInfo:
+            properties:
+                created_at:
+                    description: 创建时间
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: api名称
+                    type: string
+                path:
+                    description: api路径
+                    type: string
+                status:
+                    description: 状态
+                    type: string
+            type: object
+        CenterApiListRequest:
+            properties:
+                name:
+                    description: api名称
+                    type: string
+                page:
+                    description: ""
+                    type: integer
+            type: object
+        CenterApiListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterApiInfo'
+                    type: array
+                total:
+                    description: ""
+                    type: integer
+            type: object
+        CenterApiSwitchStatusRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                status:
+                    description: ""
+                    type: string
+            type: object
+        CenterApiSwitchStatusResponse:
+            properties: null
+            type: object
+        CenterApiUpdateRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: api名称
+                    type: string
+                path:
+                    description: api路径
+                    type: string
+            type: object
+        CenterApiUpdateResponse:
+            properties: null
+            type: object
+        CenterMenuAllRequest:
+            properties: null
+            type: object
+        CenterMenuAllResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterMenuInfo'
+                    type: array
+            type: object
+        CenterMenuBindApiAllRequest:
+            properties: null
+            type: object
+        CenterMenuBindApiAllResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterMenuBindApiInfo'
+                    type: array
+            type: object
+        CenterMenuBindApiCreateRequest:
+            properties:
+                api_ids:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                menu_id:
+                    description: ""
+                    type: integer
+            type: object
+        CenterMenuBindApiCreateResponse:
+            properties: null
+            type: object
+        CenterMenuBindApiDeleteRequest:
+            properties:
+                api_id:
+                    description: ""
+                    type: integer
+                menu_id:
+                    description: ""
+                    type: integer
+            type: object
+        CenterMenuBindApiDeleteResponse:
+            properties: null
+            type: object
+        CenterMenuBindApiInfo:
+            properties:
+                api_id:
+                    description: ""
+                    type: integer
+                create_at:
+                    description: ""
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                menu_id:
+                    description: ""
+                    type: integer
+                name:
+                    description: ""
+                    type: string
+                path:
+                    description: ""
+                    type: string
+            type: object
+        CenterMenuBindApiListRequest:
+            properties:
+                menu_id:
+                    description: ""
+                    type: integer
+            type: object
+        CenterMenuBindApiListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterMenuBindApiInfo'
+                    type: array
+            type: object
+        CenterMenuCreateRequest:
+            properties:
+                app_id:
+                    description: ""
+                    type: string
+                icon:
+                    description: ""
+                    type: string
+                name_json:
+                    $ref: '#/components/schemas/model.Lang'
+                path:
+                    description: ""
+                    type: string
+                pid:
+                    description: ""
+                    type: integer
+                sort_num:
+                    description: ""
+                    type: integer
+            type: object
+        CenterMenuCreateResponse:
+            properties: null
+            type: object
+        CenterMenuDetailRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+            type: object
+        CenterMenuDetailResponse:
+            properties:
+                created_at:
+                    description: ""
+                    type: string
+                icon:
+                    description: ""
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: ""
+                    type: string
+                name_json:
+                    $ref: '#/components/schemas/model.Lang'
+                path:
+                    description: ""
+                    type: string
+                pid:
+                    description: ""
+                    type: integer
+                sort_num:
+                    description: ""
+                    type: integer
+                status:
+                    description: ""
+                    type: string
+                updated_at:
+                    description: ""
+                    type: string
+            type: object
+        CenterMenuInfo:
+            properties:
+                created_at:
+                    description: ""
+                    type: string
+                icon:
+                    description: ""
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: ""
+                    type: string
+                name_json:
+                    $ref: '#/components/schemas/model.Lang'
+                path:
+                    description: ""
+                    type: string
+                pid:
+                    description: ""
+                    type: integer
+                sort_num:
+                    description: ""
+                    type: integer
+                status:
+                    description: ""
+                    type: string
+                updated_at:
+                    description: ""
+                    type: string
+            type: object
+        CenterMenuSwitchStatusRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                status:
+                    description: ""
+                    type: string
+            type: object
+        CenterMenuSwitchStatusResponse:
+            properties: null
+            type: object
+        CenterMenuUpdateRequest:
+            properties:
+                icon:
+                    description: ""
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                name_json:
+                    $ref: '#/components/schemas/model.Lang'
+                path:
+                    description: ""
+                    type: string
+                pid:
+                    description: ""
+                    type: integer
+                sort_num:
+                    description: ""
+                    type: integer
+            type: object
+        CenterMenuUpdateResponse:
+            properties: null
+            type: object
+        CenterRoleAllItem:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: 角色名称
+                    type: string
+            type: object
+        CenterRoleAllRequest:
+            properties: null
+            type: object
+        CenterRoleAllResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterRoleAllItem'
+                    type: array
+            type: object
+        CenterRoleBindApiListRequest:
+            properties:
+                role_id:
+                    description: 角色id
+                    type: integer
+            type: object
+        CenterRoleBindApiListResponse:
+            properties:
+                api_id_list:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+            type: object
+        CenterRoleBindApiUpdateRequest:
+            properties:
+                api_id_list:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                role_id:
+                    description: 角色id
+                    type: integer
+            type: object
+        CenterRoleBindApiUpdateResponse:
+            properties: null
+            type: object
+        CenterRoleBindMenuListRequest:
+            properties:
+                role_id:
+                    description: 角色id
+                    type: integer
+            type: object
+        CenterRoleBindMenuListResponse:
+            properties:
+                menu_id_list:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+            type: object
+        CenterRoleBindMenuUpdateRequest:
+            properties:
+                menu_id_list:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                role_id:
+                    description: 角色id
+                    type: integer
+            type: object
+        CenterRoleBindMenuUpdateResponse:
+            properties: null
+            type: object
+        CenterRoleCreateRequest:
+            properties:
+                name:
+                    description: 角色名称
+                    type: string
+            type: object
+        CenterRoleCreateResponse:
+            properties: null
+            type: object
+        CenterRoleInfo:
+            properties:
+                created_at:
+                    description: 创建时间
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                is_super:
+                    description: 是否为超级管理员
+                    type: string
+                name:
+                    description: 角色名称
+                    type: string
+                status:
+                    description: 状态
+                    type: string
+            type: object
+        CenterRoleListRequest:
+            properties:
+                page:
+                    description: ""
+                    type: integer
+            type: object
+        CenterRoleListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterRoleInfo'
+                    type: array
+                total:
+                    description: ""
+                    type: integer
+            type: object
+        CenterRoleSwitchStatusRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                status:
+                    description: 状态
+                    type: string
+            type: object
+        CenterRoleSwitchStatusResponse:
+            properties: null
+            type: object
+        CenterRoleUpdateRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                name:
+                    description: 角色名称
+                    type: string
+            type: object
+        CenterRoleUpdateResponse:
+            properties: null
+            type: object
+        CenterUserCreateRequest:
+            properties:
+                nickname:
+                    description: ""
+                    type: string
+                password:
+                    description: ""
+                    type: string
+                remark:
+                    description: ""
+                    type: string
+                user_type:
+                    description: ""
+                    type: string
+                username:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserCreateResponse:
+            properties: null
+            type: object
+        CenterUserListRequest:
+            properties:
+                page:
+                    description: ""
+                    type: integer
+                user_id:
+                    description: ""
+                    type: string
+                username:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/UserInfo'
+                    type: array
+                total:
+                    description: ""
+                    type: integer
+            type: object
+        CenterUserModifyPasswordRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                password:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserModifyPasswordResponse:
+            properties: null
+            type: object
+        CenterUserRole:
+            properties:
+                created_at:
+                    description: 创建时间
+                    type: string
+                id:
+                    description: 角色ID
+                    type: integer
+                is_super:
+                    description: 是否未超级管理员
+                    type: string
+                name:
+                    description: 角色名称
+                    type: string
+                status:
+                    description: 角色状态
+                    type: string
+            type: object
+        CenterUserRoleBindRequest:
+            properties:
+                role_id:
+                    description: ""
+                    type: integer
+                user_id:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserRoleBindResponse:
+            properties: null
+            type: object
+        CenterUserRoleListRequest:
+            properties:
+                user_id:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserRoleListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/CenterUserRole'
+                    type: array
+            type: object
+        CenterUserRoleUnbindRequest:
+            properties:
+                role_id:
+                    description: ""
+                    type: integer
+                user_id:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserRoleUnbindResponse:
+            properties: null
+            type: object
+        CenterUserSwitchStatusRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                status:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserSwitchStatusResponse:
+            properties: null
+            type: object
+        CenterUserUpdateRequest:
+            properties:
+                id:
+                    description: ""
+                    type: integer
+                nickname:
+                    description: ""
+                    type: string
+                remark:
+                    description: ""
+                    type: string
+                user_type:
+                    description: ""
+                    type: string
+            type: object
+        CenterUserUpdateResponse:
+            properties: null
+            type: object
+        DepositCashRateCountryConfigPushRequest:
+            properties:
+                deposit_currency_exchange_rate_item:
+                    $ref: '#/components/schemas/DepositCurrencyExchangeRateItem'
+            type: object
+        DepositCashRateCountryConfigPushResponse:
+            properties: null
+            type: object
+        DepositCashRateCountryConfigRequest:
+            properties: null
+            type: object
+        DepositCashRateCountryConfigResponse:
+            properties:
+                deposit_currency_exchange_rate_list:
+                    items:
+                        $ref: '#/components/schemas/DepositCurrencyExchangeRateItem'
+                    type: array
+            type: object
+        DepositCashRateCountryConfigUpdateRequest:
+            properties:
+                deposit_currency_exchange_rate_list:
+                    items:
+                        $ref: '#/components/schemas/DepositCurrencyExchangeRateItem'
+                    type: array
+            type: object
+        DepositCashRateCountryConfigUpdateResponse:
+            properties: null
+            type: object
+        DepositCurrencyExchangeRateItem:
+            properties:
+                bank_card:
+                    description: bank card
+                    type: string
+                country_code:
+                    description: 'country code: USA, CHN, ...'
+                    type: string
+                country_name:
+                    $ref: '#/components/schemas/model.Lang'
+                currency_code:
+                    description: currency code
+                    type: string
+                rate:
+                    description: Rate
+                    type: string
+                rule_desc:
+                    description: '-'
+                    type: string
+                rules:
+                    items:
+                        $ref: '#/components/schemas/model.DisplaySettingItem'
+                    type: array
+                symbol:
+                    description: symbol
+                    type: string
+            type: object
+        Empty:
+            properties: null
+            type: object
+        ErrorResponse:
+            properties:
+                code:
+                    description: ""
+                    type: string
+                detail:
+                    $ref: '#/components/schemas/'
+                message:
+                    description: ""
+                    type: string
+            type: object
+        UserDetailRequest:
+            properties:
+                user_id:
+                    description: 用户id
+                    type: integer
+            type: object
+        UserDetailResponse:
+            properties:
+                user:
+                    $ref: '#/components/schemas/UserListItem'
+                user_id:
+                    description: 用户id
+                    type: integer
+            type: object
+        UserInfo:
+            properties:
+                created_at:
+                    description: ""
+                    type: string
+                id:
+                    description: ""
+                    type: integer
+                nickname:
+                    description: ""
+                    type: string
+                remark:
+                    description: ""
+                    type: string
+                status:
+                    description: ""
+                    type: string
+                updated_at:
+                    description: ""
+                    type: string
+                user_id:
+                    description: ""
+                    type: string
+                user_type:
+                    description: ""
+                    type: string
+                username:
+                    description: ""
+                    type: string
+            type: object
+        UserListItem:
+            properties:
+                avatar:
+                    description: 头像
+                    type: string
+                balance:
+                    description: 余额
+                    type: string
+                created_at:
+                    description: 创建时间
+                    type: string
+                customer_id:
+                    description: custom id
+                    type: string
+                enable_level_grade:
+                    description: 是否开启用户等级定级
+                    type: string
+                free_fee_withdraw_amount:
+                    description: 免手续费提现额度
+                    type: string
+                income:
+                    description: 收益
+                    type: string
+                invest_amount:
+                    description: 投资金额
+                    type: string
+                invite_code:
+                    description: 邀请码
+                    type: string
+                is_club_owner:
+                    description: '是否俱乐部拥有者: Y:是 N:否'
+                    type: string
+                is_internal:
+                    description: '是内部号: Y:是 N:否'
+                    type: string
+                is_valid:
+                    description: 是否有效
+                    type: string
+                level:
+                    description: 代理级别
+                    type: integer
+                level_name:
+                    description: LevelName
+                    type: string
+                nickname:
+                    description: 昵称
+                    type: string
+                parent_invite_code:
+                    description: ParentInviteCode
+                    type: string
+                parent_level:
+                    description: ParentLevel
+                    type: integer
+                parent_nickname:
+                    description: ParentNickname
+                    type: string
+                parent_username:
+                    description: ParentUsername
+                    type: string
+                pid:
+                    description: 父级id
+                    type: integer
+                point:
+                    description: 积分
+                    type: string
+                status:
+                    description: 状态:启用ON,禁用OFF
+                    type: string
+                updated_at:
+                    description: 更新时间
+                    type: string
+                user_id:
+                    description: 用户id
+                    type: integer
+                username:
+                    description: 用户名 Email
+                    type: string
+            type: object
+        UserListRequest:
+            properties:
+                balance_range:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                customer_id:
+                    description: custom id
+                    type: string
+                enable_level_grade:
+                    description: 是否开启用户等级定级
+                    type: string
+                free_fee_withdraw_amount_range:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                income_range:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                invest_amount_range:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                invite_code:
+                    description: 邀请码
+                    type: string
+                is_club_owner:
+                    description: '是否俱乐部拥有者: Y:是 N:否'
+                    type: string
+                is_valid:
+                    description: 是否有效
+                    type: string
+                level:
+                    description: 代理级别
+                    type: integer
+                nickname:
+                    description: 昵称
+                    type: string
+                page:
+                    description: 页码 page
+                    type: integer
+                page_size:
+                    description: 每页数量 page_size
+                    type: integer
+                pid:
+                    description: 父级id
+                    type: integer
+                point_range:
+                    items:
+                        $ref: '#/components/schemas/int'
+                    type: array
+                status:
+                    description: 状态:启用ON,禁用OFF
+                    type: string
+                user_id:
+                    description: 用户id
+                    type: integer
+                username:
+                    description: 用户名
+                    type: string
+            type: object
+        UserListResponse:
+            properties:
+                items:
+                    items:
+                        $ref: '#/components/schemas/UserListItem'
+                    type: array
+                total:
+                    description: total 总数
+                    type: integer
+            type: object
+        UserReset2faRequest:
+            properties:
+                user_id:
+                    description: 用户id
+                    type: integer
+            type: object
+        UserReset2faResponse:
+            properties: null
+            type: object
+        UserResetPayPasswordRequest:
+            properties:
+                user_id:
+                    description: 用户id
+                    type: integer
+            type: object
+        UserResetPayPasswordResponse:
+            properties: null
+            type: object
+        UserSafeQuestionListItem:
+            properties:
+                answer:
+                    description: 答案
+                    type: string
+                question:
+                    $ref: '#/components/schemas/model.Lang'
+                question_id:
+                    description: 问题id
+                    type: integer
+            type: object
+        UserSafeQuestionRequest:
+            properties:
+                user_id:
+                    description: 用户id
+                    type: integer
+            type: object
+        UserSafeQuestionResponse:
+            properties:
+                is_enable_two_factor_auth:
+                    description: 是否开启两步验证 Y:是 N:否
+                    type: string
+                is_set_pay_password:
+                    description: 是否设置支付密码 Y:是 N:否
+                    type: string
+                items:
+                    items:
+                        $ref: '#/components/schemas/UserSafeQuestionListItem'
+                    type: array
+                user_id:
+                    description: 用户id
+                    type: integer
+                username:
+                    description: 用户名
+                    type: string
+            type: object
+        UserUpdateStatusRequest:
+            properties:
+                status:
+                    description: 状态:启用ON,禁用OFF
+                    type: string
+                user_id:
+                    description: 用户id
+                    type: integer
+            type: object
+        UserUpdateStatusResponse:
+            properties: null
+            type: object
+        int:
+            format: int
+            type: integer
+        model.ArticleRecommend:
+            properties:
+                free_travel:
+                    description: free travel recommend Y/N
+                    type: string
+                home:
+                    description: home recommend Y/N
+                    type: string
+            type: object
+        model.Lang:
+            properties:
+                en:
+                    description: english value
+                    type: string
+                zh:
+                    description: chinese value
+                    type: string
+            type: object
+        model.LangObject:
+            properties:
+                en:
+                    items:
+                        properties:
+                            desc:
+                                description: the description of item
+                                type: string
+                            icon:
+                                description: Image url
+                                type: string
+                            title:
+                                description: the value of item
+                                type: string
+                        type: object
+                    type: array
+                zh:
+                    items:
+                        properties:
+                            desc:
+                                description: the description of item
+                                type: string
+                            icon:
+                                description: Image url
+                                type: string
+                            title:
+                                description: the value of item
+                                type: string
+                        type: object
+                    type: array
+            type: object
+        model.Link:
+            properties:
+                type:
+                    description: the type of link => ARTICLE_VIDEO_PAGE, ARTICLE_DETAIL_PAGE,DEPOSIT,INVEST,INVITE_FRIEND, HELP_CENTER,TASK,LEARN,MY_TEAM,SERVICE,COMING_SOON
+                    type: string
+                value:
+                    description: the value of link
+                    type: string
+            type: object
+        model.NewsRecommend:
+            properties:
+                home:
+                    description: home recommend Y/N
+                    type: string
+            type: object
+        model.RecommendAttr:
+            properties:
+                explore:
+                    description: explore recommend Y/N
+                    type: string
+                home:
+                    description: home recommend Y/N
+                    type: string
+            type: object
+        model.TaskConfigAttr:
+            account_info:
+                properties:
+                    account_name:
+                        description: the account name of party
+                        type: string
+                    account_number:
+                        description: the account number of party
+                        type: string
+                    bank_name:
+                        description: the bank name of party
+                        type: string
+                    branch_name:
+                        description: the branch name of party
+                        type: string
+                type: object
+            basic_info:
+                properties:
+                    email:
+                        description: the email of party
+                        type: string
+                    name:
+                        description: the name of party
+                        type: string
+                    phone_number:
+                        description: the phone number of party
+                        type: string
+                    register_number:
+                        description: the register number of party
+                        type: string
+                type: object
+            model.ArticleRecommend:
+                properties:
+                    free_travel:
+                        description: free travel recommend Y/N
+                        type: string
+                    home:
+                        description: home recommend Y/N
+                        type: string
+                type: object
+            model.ContactMethodType:
+                properties:
+                    contact:
+                        description: the value of contact number
+                        type: string
+                    method_name:
+                        description: the type of contact method => EMAIL,PHONE_NUMBER,WECHAT,WHATSAPP,LINE,FACEBOOK,INSTAGRAM
+                        type: string
+                type: object
+            model.Lang:
+                properties:
+                    en:
+                        description: english value
+                        type: string
+                    zh:
+                        description: chinese value
+                        type: string
+                type: object
+            model.Link:
+                properties:
+                    type:
+                        description: the type of link => ARTICLE_VIDEO_PAGE, ARTICLE_DETAIL_PAGE,DEPOSIT,INVEST,INVITE_FRIEND, HELP_CENTER,TASK,LEARN,MY_TEAM,SERVICE
+                        type: string
+                    value:
+                        description: the value of link
+                        type: string
+                type: object
+            model.Media:
+                properties:
+                    type:
+                        description: the type of media => IMAGE,VIDEO
+                        type: string
+                    url:
+                        description: the url of media
+                        type: string
+                type: object
+            model.NewsRecommend:
+                properties:
+                    home:
+                        description: home recommend Y/N
+                        type: string
+                type: object
+            model.PartyConfigAttrType:
+                properties:
+                    account_info:
+                        $ref: '#/components/schemas/account_info'
+                    basic_info:
+                        $ref: '#/components/schemas/basic_info'
+                type: object
+            model.RecommendAttr:
+                properties:
+                    explore:
+                        description: explore recommend Y/N
+                        type: string
+                    home:
+                        description: home recommend Y/N
+                        type: string
+                type: object
+            model.RelatedTypeAttr:
+                properties:
+                    article_ids:
+                        items:
+                            description: the id of article
+                            type: integer
+                        type: array
+                    news_ids:
+                        items:
+                            description: the id of news
+                            type: integer
+                        type: array
+                    travel_ids:
+                        items:
+                            description: the id of travel
+                            type: integer
+                        type: array
+                type: object
+            model.TaskConfigAttr:
+                properties:
+                    learn_seconds:
+                        description: the seconds of learn
+                        type: integer
+                    question_list:
+                        items:
+                            properties:
+                                correct_answer_key:
+                                    description: the key of correct answer
+                                    type: string
+                                options:
+                                    items:
+                                        properties:
+                                            option:
+                                                $ref: '#/components/schemas/model.Lang'
+                                            option_key:
+                                                description: the key of option
+                                                type: string
+                                        type: object
+                                    type: array
+                                question:
+                                    $ref: '#/components/schemas/model.Lang'
+                                question_id:
+                                    description: the id of question
+                                    type: string
+                            type: object
+                        type: array
+                    task_article:
+                        properties:
+                            article_id:
+                                description: the id of article
+                                type: integer
+                            content:
+                                $ref: '#/components/schemas/model.Lang'
+                            cover:
+                                $ref: '#/components/schemas/model.Lang'
+                            created_at:
+                                description: the created time of article
+                                type: string
+                            title:
+                                $ref: '#/components/schemas/model.Lang'
+                        type: object
+                    task_novice:
+                        properties:
+                            min_deposit:
+                                description: the min deposit of task
+                                type: string
+                            min_invest:
+                                description: the min deposit of task
+                                type: string
+                        type: object
+                    task_video:
+                        properties:
+                            thumb:
+                                $ref: '#/components/schemas/model.Lang'
+                            video_url:
+                                $ref: '#/components/schemas/model.Lang'
+                        type: object
+                    task_vip_check_in:
+                        properties:
+                            imager_url:
+                                $ref: '#/components/schemas/model.Lang'
+                            link:
+                                $ref: '#/components/schemas/model.Link'
+                            reward_radion:
+                                description: the reward of task
+                                type: string
+                        type: object
+                    task_vip_watch:
+                        properties:
+                            link:
+                                $ref: '#/components/schemas/model.Link'
+                            reward_radion:
+                                description: the reward of task
+                                type: string
+                        type: object
+                type: object
+            model.TaskConfigAttrCreate:
+                properties:
+                    learn_seconds:
+                        description: the seconds of learn
+                        type: integer
+                    question_list:
+                        items:
+                            properties:
+                                correct_answer_key:
+                                    description: the key of correct answer
+                                    type: string
+                                options:
+                                    items:
+                                        properties:
+                                            option:
+                                                $ref: '#/components/schemas/model.Lang'
+                                            option_key:
+                                                description: the key of option
+                                                type: string
+                                        type: object
+                                    type: array
+                                question:
+                                    $ref: '#/components/schemas/model.Lang'
+                            type: object
+                        type: array
+                    task_article:
+                        properties:
+                            article_id:
+                                description: the id of article
+                                type: integer
+                            content:
+                                $ref: '#/components/schemas/model.Lang'
+                            cover:
+                                $ref: '#/components/schemas/model.Lang'
+                            title:
+                                $ref: '#/components/schemas/model.Lang'
+                        type: object
+                    task_novice:
+                        properties:
+                            min_deposit:
+                                description: the min deposit of task
+                                type: string
+                            min_invest:
+                                description: the min deposit of task
+                                type: string
+                        type: object
+                    task_video:
+                        properties:
+                            thumb:
+                                $ref: '#/components/schemas/model.Lang'
+                            video_url:
+                                $ref: '#/components/schemas/model.Lang'
+                        type: object
+                    task_vip_check_in:
+                        properties:
+                            imager_url:
+                                $ref: '#/components/schemas/model.Lang'
+                            link:
+                                $ref: '#/components/schemas/model.Link'
+                            reward_radion:
+                                description: the reward of task
+                                type: string
+                        type: object
+                    task_vip_watch:
+                        properties:
+                            link:
+                                $ref: '#/components/schemas/model.Link'
+                            reward_radion:
+                                description: the reward of task
+                                type: string
+                        type: object
+                type: object
+            model.TravelOverview:
+                items:
+                    properties:
+                        image_url:
+                            description: the image url of travel
+                            type: string
+                        title:
+                            $ref: '#/components/schemas/model.Lang'
+                    type: object
+                type: array
+            properties:
+                learn_seconds:
+                    format: int
+                    type: integer
+            type: object

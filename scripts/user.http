@@ -1,0 +1,10 @@
+POST http://localhost:7702/api/personal_center/log_off
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXMiOnsidXNlcl9pZCI6ODB9LCJleHAiOjE3MDYyODAwNjJ9.S-m-jdqK8mmUdWYsH4HuQdn-JgakqoX_SX92r81Drps
+
+{
+  "improve": "test",
+  "password": "Qq111111"
+}
+
+

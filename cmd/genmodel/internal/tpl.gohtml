@@ -1,0 +1,31 @@
+package model
+
+import "time"
+
+{{if .Comment}}// {{.Comment}}{{end}}
+
+{{if .Enums}}
+const (
+    {{range $k,$enum := .Enums -}}
+        {{- range $enumItem := $enum.Items -}}
+            {{- $enum.NamePrefix}}{{clsName $enumItem.Name}} = "{{$enumItem.Value}}" // {{$enumItem.Comment }}{{"\n"}}
+        {{- end -}}
+        {{ if lt $k (minus (len $.Enums) 1) }}{{"\n"}}{{end}}
+    {{- end -}}
+)
+{{end}}
+
+type {{clsName .Table}} struct {
+    {{- range .Columns}}
+    {{clsName .Field}}     {{if .CustomType}}{{typName .}}{{else}}{{typName .}}{{end}}    `json:"{{.Field}}" gorm:"{{if eq .Key "PRI"}}primaryKey;{{end}}column:{{.Field}}"` // {{.Comment}}
+    {{- end}}
+}
+
+func (*{{clsName .Table}}) TableName() string {
+    return "{{.Table}}"
+}
+
+func (*{{clsName .Table}}) PK() string {
+    return "{{.PK}}"
+}
+

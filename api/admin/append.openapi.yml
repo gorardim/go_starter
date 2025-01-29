@@ -1,0 +1,397 @@
+openapi: 3.0.0
+info:
+    title: Append
+    version: 1.0.0
+paths:
+    /admin/upload/image:
+        post:
+            tags:
+                - UploadServer
+            description: "图片上传"
+            summary: "图片上传"
+            parameters:
+                - in: header
+                  name: Authorization
+                  description: Authorization token
+                  required: true
+                  schema:
+                      type: string
+            requestBody:
+                content:
+                    multipart/form-data:
+                        schema:
+                            type: object
+                            properties:
+                                file:
+                                    type: string
+                                    format: binary
+            responses:
+                200:
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    url:
+                                        type: string
+                                        description: 图片地址
+components:
+    schemas:
+        int:
+            type: integer
+            format: int
+        model.Link:
+            type: object
+            properties:
+                type:
+                    type: string
+                    description: the type of link => ARTICLE_VIDEO_PAGE, ARTICLE_DETAIL_PAGE,DEPOSIT,INVEST,INVITE_FRIEND, HELP_CENTER,TASK,LEARN,MY_TEAM,SERVICE,COMING_SOON
+                value:
+                    type: string
+                    description: the value of link
+        model.Lang:
+            type: object
+            properties:
+                en:
+                    type: string
+                    description: english value
+                zh:
+                    type: string
+                    description: chinese value
+        model.LangObject:
+            type: object
+            properties:
+                en:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            title:
+                                type: string
+                                description: the value of item
+                            icon:
+                                type: string
+                                description: Image url
+                            desc:
+                                type: string
+                                description: the description of item
+                zh:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            title:
+                                type: string
+                                description: the value of item
+                            icon:
+                                type: string
+                                description: Image url
+                            desc:
+                                type: string
+                                description: the description of item
+        model.RecommendAttr:
+            type: object
+            properties:
+                home:
+                    type: string
+                    description: home recommend Y/N
+                explore:
+                    type: string
+                    description: explore recommend Y/N
+        model.ArticleRecommend:
+            type: object
+            properties:
+                home:
+                    type: string
+                    description: home recommend Y/N
+                free_travel:
+                    type: string
+                    description: free travel recommend Y/N
+        model.NewsRecommend:
+            type: object
+            properties:
+                home:
+                    type: string
+                    description: home recommend Y/N
+        model.TaskConfigAttr:
+            type: object
+            properties:
+                learn_seconds:
+                    type: integer
+                    format: int
+            model.Link:
+                type: object
+                properties:
+                    type:
+                        type: string
+                        description: the type of link => ARTICLE_VIDEO_PAGE, ARTICLE_DETAIL_PAGE,DEPOSIT,INVEST,INVITE_FRIEND, HELP_CENTER,TASK,LEARN,MY_TEAM,SERVICE
+                    value:
+                        type: string
+                        description: the value of link
+            model.Lang:
+                type: object
+                properties:
+                    en:
+                        type: string
+                        description: english value
+                    zh:
+                        type: string
+                        description: chinese value
+            basic_info:
+                type: object
+                properties:
+                    name:
+                        type: string
+                        description: the name of party
+                    register_number:
+                        type: string
+                        description: the register number of party
+                    email:
+                        type: string
+                        description: the email of party
+                    phone_number:
+                        type: string
+                        description: the phone number of party
+            account_info:
+                type: object
+                properties:
+                    bank_name:
+                        type: string
+                        description: the bank name of party
+                    branch_name:
+                        type: string
+                        description: the branch name of party
+                    account_name:
+                        type: string
+                        description: the account name of party
+                    account_number:
+                        type: string
+                        description: the account number of party
+            model.PartyConfigAttrType:
+                type: object
+                properties:
+                    basic_info:
+                        $ref: "#/components/schemas/basic_info"
+                    account_info:
+                        $ref: "#/components/schemas/account_info"
+            model.ContactMethodType:
+                type: object
+                properties:
+                    method_name:
+                        type: string
+                        description: the type of contact method => EMAIL,PHONE_NUMBER,WECHAT,WHATSAPP,LINE,FACEBOOK,INSTAGRAM
+                    contact:
+                        type: string
+                        description: the value of contact number
+            model.RecommendAttr:
+                type: object
+                properties:
+                    home:
+                        type: string
+                        description: home recommend Y/N
+                    explore:
+                        type: string
+                        description: explore recommend Y/N
+            model.ArticleRecommend:
+                type: object
+                properties:
+                    home:
+                        type: string
+                        description: home recommend Y/N
+                    free_travel:
+                        type: string
+                        description: free travel recommend Y/N
+            model.NewsRecommend:
+                type: object
+                properties:
+                    home:
+                        type: string
+                        description: home recommend Y/N
+            model.TaskConfigAttr:
+                type: object
+                properties:
+                    learn_seconds:
+                        type: integer
+                        description: the seconds of learn
+                    question_list:
+                        type: array
+                        items:
+                            type: object
+                            properties:
+                                question_id:
+                                    type: string
+                                    description: the id of question
+                                question:
+                                    $ref: "#/components/schemas/model.Lang"
+                                options:
+                                    type: array
+                                    items:
+                                        type: object
+                                        properties:
+                                            option:
+                                                $ref: "#/components/schemas/model.Lang"
+                                            option_key:
+                                                type: string
+                                                description: the key of option
+                                correct_answer_key:
+                                    type: string
+                                    description: the key of correct answer
+                    task_video:
+                        type: object
+                        properties:
+                            video_url:
+                                $ref: "#/components/schemas/model.Lang"
+                            thumb:
+                                $ref: "#/components/schemas/model.Lang"
+                    task_novice:
+                        type: object
+                        properties:
+                            min_deposit:
+                                type: string
+                                description: the min deposit of task
+                            min_invest:
+                                type: string
+                                description: the min deposit of task
+                    task_article:
+                        type: object
+                        properties:
+                            article_id:
+                                type: integer
+                                description: the id of article
+                            title:
+                                $ref: "#/components/schemas/model.Lang"
+                            cover:
+                                $ref: "#/components/schemas/model.Lang"
+                            content:
+                                $ref: "#/components/schemas/model.Lang"
+                            created_at:
+                                type: string
+                                description: the created time of article
+                    task_vip_check_in:
+                        type: object
+                        properties:
+                            imager_url:
+                                $ref: "#/components/schemas/model.Lang"
+                            link:
+                                $ref: "#/components/schemas/model.Link"
+                            reward_radion:
+                                type: string
+                                description: the reward of task
+                    task_vip_watch:
+                        type: object
+                        properties:
+                            link:
+                                $ref: "#/components/schemas/model.Link"
+                            reward_radion:
+                                type: string
+                                description: the reward of task
+            model.TravelOverview:
+                type: array
+                items:
+                    type: object
+                    properties:
+                        title:
+                            $ref: "#/components/schemas/model.Lang"
+                        image_url:
+                            type: string
+                            description: the image url of travel
+            model.RelatedTypeAttr:
+                type: object
+                properties:
+                    travel_ids:
+                        type: array
+                        items:
+                            type: integer
+                            description: the id of travel
+                    article_ids:
+                        type: array
+                        items:
+                            type: integer
+                            description: the id of article
+                    news_ids:
+                        type: array
+                        items:
+                            type: integer
+                            description: the id of news
+            model.Media:
+                type: object
+                properties:
+                    type:
+                        type: string
+                        description: the type of media => IMAGE,VIDEO
+                    url:
+                        type: string
+                        description: the url of media
+            model.TaskConfigAttrCreate:
+                type: object
+                properties:
+                    learn_seconds:
+                        type: integer
+                        description: the seconds of learn
+                    question_list:
+                        type: array
+                        items:
+                            type: object
+                            properties:
+                                question:
+                                    $ref: "#/components/schemas/model.Lang"
+                                options:
+                                    type: array
+                                    items:
+                                        type: object
+                                        properties:
+                                            option:
+                                                $ref: "#/components/schemas/model.Lang"
+                                            option_key:
+                                                type: string
+                                                description: the key of option
+                                correct_answer_key:
+                                    type: string
+                                    description: the key of correct answer
+                    task_video:
+                        type: object
+                        properties:
+                            video_url:
+                                $ref: "#/components/schemas/model.Lang"
+                            thumb:
+                                $ref: "#/components/schemas/model.Lang"
+                    task_novice:
+                        type: object
+                        properties:
+                            min_deposit:
+                                type: string
+                                description: the min deposit of task
+                            min_invest:
+                                type: string
+                                description: the min deposit of task
+                    task_article:
+                        type: object
+                        properties:
+                            article_id:
+                                type: integer
+                                description: the id of article
+                            title:
+                                $ref: "#/components/schemas/model.Lang"
+                            cover:
+                                $ref: "#/components/schemas/model.Lang"
+                            content:
+                                $ref: "#/components/schemas/model.Lang"
+                    task_vip_check_in:
+                        type: object
+                        properties:
+                            imager_url:
+                                $ref: "#/components/schemas/model.Lang"
+                            link:
+                                $ref: "#/components/schemas/model.Link"
+                            reward_radion:
+                                type: string
+                                description: the reward of task
+                    task_vip_watch:
+                        type: object
+                        properties:
+                            link:
+                                $ref: "#/components/schemas/model.Link"
+                            reward_radion:
+                                type: string
+                                description: the reward of task

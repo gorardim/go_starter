@@ -1,0 +1,140 @@
+- fund_id: 122
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 32
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:99"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:05
+  updated_at: 2023-12-27 00:15:05
+
+- fund_id: 121
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 36
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:94"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:05
+  updated_at: 2023-12-27 00:15:05
+
+- fund_id: 120
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 37
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:82"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:04
+  updated_at: 2023-12-27 00:15:04
+
+- fund_id: 119
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 34
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:76"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:04
+  updated_at: 2023-12-27 00:15:04
+
+- fund_id: 118
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 40
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:80"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:04
+  updated_at: 2023-12-27 00:15:04
+
+- fund_id: 117
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: ""
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 61
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:93"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:03
+  updated_at: 2023-12-27 00:15:03
+
+- fund_id: 116
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 39
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:79"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:03
+  updated_at: 2023-12-27 00:15:03
+
+- fund_id: 114
+  user_id: 43
+  from_user_id: 43
+  amount: "0.00"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20231227:3"
+  reason: "俱乐部收益: 0.000000"
+  created_at: 2023-12-27 00:15:03
+  updated_at: 2023-12-27 00:15:03
+
+- fund_id: 113
+  user_id: 1
+  from_user_id: 31
+  amount: "0.17"
+  type: "INCOME"
+  account_type: ""
+  biz_type: "RECOMMEND_DIRECT"
+  order_id: 33
+  withdraw_id: 0
+  biz_id: "team:recommen:direct:92"
+  reason: "直接推荐奖励"
+  created_at: 2023-12-27 00:15:03
+  updated_at: 2023-12-27 00:15:03
+
+- fund_id: 111
+  user_id: 26
+  from_user_id: 26
+  amount: "0.00"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20231227:2"
+  reason: "俱乐部收益: 0.000000"
+  created_at: 2023-12-27 00:15:03
+  updated_at: 2023-12-27 00:15:03
+

@@ -1,0 +1,624 @@
+openapi: 3.0.0
+info:
+    title: open api
+    version: 1.0.0
+tags:
+    - description: ' 认证服务(release)'
+      name: AuthServer
+paths:
+    /api/auth/captcha/send:
+        post:
+            description: 发送图形验证码
+            operationId: AuthServer_CaptchaSend
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthCaptchaSendRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthCaptchaSendResponse'
+                    description: OK
+            summary: 发送图形验证码
+            tags:
+                - AuthServer
+    /api/auth/check_invite_code:
+        post:
+            description: 检查邀请码是否存在
+            operationId: AuthServer_CheckInviteCode
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthCheckInviteCodeRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthCheckInviteCodeResponse'
+                    description: OK
+            summary: 检查邀请码是否存在
+            tags:
+                - AuthServer
+    /api/auth/check_username:
+        post:
+            description: 检查用户名是否存在
+            operationId: AuthServer_CheckUsername
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthCheckUsernameRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthCheckUsernameResponse'
+                    description: OK
+            summary: 检查用户名是否存在
+            tags:
+                - AuthServer
+    /api/auth/check_username/v2:
+        post:
+            description: 检查用户名是否存在
+            operationId: AuthServer_CheckUsernameV2
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthCheckUsernameRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthCheckUsernameResponseV2'
+                    description: OK
+            summary: 检查用户名是否存在
+            tags:
+                - AuthServer
+    /api/auth/email/send:
+        post:
+            description: 发送邮箱验证码
+            operationId: AuthServer_EmailSend
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthEmailSendRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthEmailSendResponse'
+                    description: OK
+            summary: 发送邮箱验证码
+            tags:
+                - AuthServer
+    /api/auth/login:
+        post:
+            description: 登录
+            operationId: AuthServer_Login
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthLoginRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthLoginResponse'
+                    description: OK
+            summary: 登录
+            tags:
+                - AuthServer
+    /api/auth/password/reset:
+        post:
+            description: 重置密码
+            operationId: AuthServer_PasswordReset
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthPasswordResetRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthPasswordResetResponse'
+                    description: OK
+            summary: 重置密码
+            tags:
+                - AuthServer
+    /api/auth/password/reset/v2:
+        post:
+            description: 重置密码
+            operationId: AuthServer_PasswordResetV2
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthPasswordResetRequestV2'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthPasswordResetResponse'
+                    description: OK
+            summary: 重置密码
+            tags:
+                - AuthServer
+    /api/auth/register:
+        post:
+            description: 注册
+            operationId: AuthServer_Register
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthRegisterRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthRegisterResponse'
+                    description: OK
+            summary: 注册
+            tags:
+                - AuthServer
+    /api/auth/register/safe_question:
+        post:
+            description: 安全问题
+            operationId: AuthServer_RegisterSafeQuestion
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthRegisterSafeQuestionRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthRegisterSafeQuestionResponse'
+                    description: OK
+            summary: 安全问题
+            tags:
+                - AuthServer
+    /api/auth/safe_question/verify:
+        post:
+            description: 安全问题验证
+            operationId: AuthServer_SafeQuestionVerify
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthSafeQuestionVerifyRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthSafeQuestionVerifyResponse'
+                    description: OK
+            summary: 安全问题验证
+            tags:
+                - AuthServer
+    /api/auth/two_fa_login:
+        post:
+            description: 两步验证登录
+            operationId: AuthServer_TwoFALogin
+            parameters:
+                - description: Accept Language
+                  in: header
+                  name: Accept-Language
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/AuthTwoFALoginRequest'
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/AuthTwoFALoginResponse'
+                    description: OK
+            summary: 两步验证登录
+            tags:
+                - AuthServer
+    /api/upload/image:
+        post:
+            description: 图片上传
+            parameters:
+                - description: Authorization token
+                  in: header
+                  name: Authorization
+                  required: true
+                  schema:
+                    type: string
+            requestBody:
+                content:
+                    multipart/form-data:
+                        schema:
+                            properties:
+                                file:
+                                    format: binary
+                                    type: string
+                            type: object
+            responses:
+                200:
+                    content:
+                        application/json:
+                            schema:
+                                properties:
+                                    url:
+                                        description: 图片地址
+                                        type: string
+                                type: object
+                    description: OK
+            summary: 图片上传
+            tags:
+                - UploadServer
+components:
+    schemas:
+        AdItem:
+            properties:
+                image_url:
+                    description: 图片地址
+                    type: string
+                link:
+                    $ref: '#/components/schemas/model.Link'
+                title:
+                    description: 标题
+                    type: string
+            type: object
+        AnswerItem:
+            properties:
+                answer:
+                    description: answer
+                    type: string
+                question_id:
+                    description: question_id
+                    type: integer
+            type: object
+        AuthCaptchaSendRequest:
+            properties: null
+            type: object
+        AuthCaptchaSendResponse:
+            properties:
+                captcha_id:
+                    description: captcha id
+                    type: string
+                captcha_image:
+                    description: captcha image
+                    type: string
+            type: object
+        AuthCheckInviteCodeRequest:
+            properties:
+                invite_code:
+                    description: invite code 邀请码
+                    type: string
+            type: object
+        AuthCheckInviteCodeResponse:
+            properties:
+                exists:
+                    description: 'exists: Y / N'
+                    type: string
+            type: object
+        AuthCheckUsernameRequest:
+            properties:
+                username:
+                    description: username
+                    type: string
+            type: object
+        AuthCheckUsernameResponse:
+            properties:
+                exists:
+                    description: 'exists: Y / N'
+                    type: string
+                remain_attempts:
+                    description: remain attempts
+                    type: integer
+            type: object
+        AuthCheckUsernameResponseV2:
+            properties:
+                exists:
+                    description: 'exists: Y / N'
+                    type: string
+            type: object
+        AuthEmailSendRequest:
+            properties:
+                email:
+                    description: email
+                    type: string
+                scene:
+                    description: scene 验证码场景 LOGIN,REGISTER,FORGOT_PASSWORD, FORGOT_PAY_PASSWORD, SET_PAY_PASSWORD
+                    type: string
+            type: object
+        AuthEmailSendResponse:
+            properties: null
+            type: object
+        AuthLoginRequest:
+            properties:
+                password:
+                    description: ""
+                    type: string
+                username:
+                    description: ""
+                    type: string
+            type: object
+        AuthLoginResponse:
+            properties:
+                avatar:
+                    description: ""
+                    type: string
+                customer_id:
+                    description: ""
+                    type: string
+                is_2fa_enabled:
+                    description: ""
+                    type: string
+                nickname:
+                    description: ""
+                    type: string
+                token:
+                    description: ""
+                    type: string
+                username:
+                    description: ""
+                    type: string
+            type: object
+        AuthPasswordResetRequest:
+            properties:
+                answers:
+                    items:
+                        $ref: '#/components/schemas/AnswerItem'
+                    type: array
+                confirm_password:
+                    description: confirm password
+                    type: string
+                new_password:
+                    description: new password
+                    type: string
+                username:
+                    description: username
+                    type: string
+            type: object
+        AuthPasswordResetRequestV2:
+            properties:
+                confirm_password:
+                    description: confirm password
+                    type: string
+                new_password:
+                    description: new password
+                    type: string
+                token:
+                    description: token
+                    type: string
+            type: object
+        AuthPasswordResetResponse:
+            properties: null
+            type: object
+        AuthRegisterRequest:
+            properties:
+                answers:
+                    items:
+                        $ref: '#/components/schemas/AnswerItem'
+                    type: array
+                confirm_password:
+                    description: confirm password
+                    type: string
+                invite_code:
+                    description: invite code 邀请码
+                    type: string
+                password:
+                    description: password
+                    type: string
+                username:
+                    description: username
+                    type: string
+            type: object
+        AuthRegisterResponse:
+            properties:
+                token:
+                    description: ""
+                    type: string
+            type: object
+        AuthRegisterSafeQuestionRequest:
+            properties: null
+            type: object
+        AuthRegisterSafeQuestionResponse:
+            properties:
+                privacy_policy:
+                    description: privacy_policy
+                    type: string
+                question1:
+                    items:
+                        $ref: '#/components/schemas/QuestionItem'
+                    type: array
+                question2:
+                    items:
+                        $ref: '#/components/schemas/QuestionItem'
+                    type: array
+                question3:
+                    items:
+                        $ref: '#/components/schemas/QuestionItem'
+                    type: array
+                rule:
+                    description: rule
+                    type: string
+                tnc:
+                    description: Tnc
+                    type: string
+            type: object
+        AuthSafeQuestionVerifyRequest:
+            properties:
+                answers:
+                    items:
+                        $ref: '#/components/schemas/AnswerItem'
+                    type: array
+                username:
+                    description: username
+                    type: string
+            type: object
+        AuthSafeQuestionVerifyResponse:
+            properties:
+                token:
+                    description: token
+                    type: string
+            type: object
+        AuthTwoFALoginRequest:
+            properties:
+                passcode:
+                    description: passcode
+                    type: string
+                password:
+                    description: password
+                    type: string
+                user_name:
+                    description: Email
+                    type: string
+            type: object
+        AuthTwoFALoginResponse:
+            properties:
+                avatar:
+                    description: ""
+                    type: string
+                customer_id:
+                    description: ""
+                    type: string
+                nickname:
+                    description: ""
+                    type: string
+                token:
+                    description: ""
+                    type: string
+                username:
+                    description: ""
+                    type: string
+            type: object
+        AuthUser:
+            properties:
+                user_id:
+                    description: ""
+                    type: integer
+            type: object
+        Empty:
+            properties: null
+            type: object
+        Link:
+            properties:
+                type:
+                    description: 'link type: ARTICLE, ARTICLE_CATEGORY, Page'
+                    type: string
+                value:
+                    description: ""
+                    type: string
+            type: object
+        QuestionItem:
+            properties:
+                question_id:
+                    description: question_id
+                    type: integer
+                title:
+                    description: title
+                    type: string
+            type: object
+        model.Link:
+            properties:
+                type:
+                    description: the type of link
+                    type: string
+                value:
+                    description: the value of link
+                    type: string
+            type: object
+        model.Media:
+            properties:
+                src:
+                    description: the src of media
+                    type: string
+                type:
+                    description: IMAGE,VIDEO
+                    type: string
+            type: object

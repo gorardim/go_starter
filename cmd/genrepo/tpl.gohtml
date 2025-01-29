@@ -1,0 +1,17 @@
+package repo
+
+import (
+	"app/api/model"
+	"app/pkg/gormx"
+	"gorm.io/gorm"
+)
+
+{{if .Comment}}// {{.Comment}}{{end}}
+
+type {{clsName .Table}}Repo struct {
+	*gormx.Repo[model.{{clsName .Table}}]
+}
+
+func New{{clsName .Table}}Repo(db *gorm.DB) *{{clsName .Table}}Repo {
+	return &{{clsName .Table}}Repo{Repo: gormx.NewRepo[model.{{clsName .Table}}](db)}
+}

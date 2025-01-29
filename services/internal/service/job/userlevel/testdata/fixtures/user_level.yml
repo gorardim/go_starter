@@ -1,0 +1,77 @@
+- id: 11
+  name: "{\"en\": \"Star Lord 7\", \"zh\": \"星爵七星\"}"
+  level: 7
+  direct_valid_member_count: 5
+  agent_count: 2
+  invest_amount: "0.00"
+  team_invest_amount: "0.00"
+  commission_rate: "0.75"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-11-12 23:51:41
+
+- id: 10
+  name: "{\"en\": \"Star Lord 6\", \"zh\": \"星爵六星\"}"
+  level: 6
+  direct_valid_member_count: 5
+  agent_count: 2
+  invest_amount: "50000.00"
+  team_invest_amount: "0.00"
+  commission_rate: "0.65"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-11-12 23:51:41
+
+- id: 9
+  name: "{\"en\": \"Star Lord 5\", \"zh\": \"星爵五星\"}"
+  level: 5
+  direct_valid_member_count: 5
+  agent_count: 2
+  invest_amount: "30000.00"
+  team_invest_amount: "0.00"
+  commission_rate: "0.55"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-11-12 23:51:41
+
+- id: 8
+  name: "{\"en\": \"Star Lord 4\", \"zh\": \"星爵四星\"}"
+  level: 4
+  direct_valid_member_count: 5
+  agent_count: 2
+  invest_amount: "10000.00"
+  team_invest_amount: "1500000.00"
+  commission_rate: "0.45"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-11-12 23:51:41
+
+- id: 7
+  name: "{\"en\": \"Star Lord 3\", \"zh\": \"星爵三星\"}"
+  level: 3
+  direct_valid_member_count: 5
+  agent_count: 2
+  invest_amount: "3000.00"
+  team_invest_amount: "500000.00"
+  commission_rate: "0.35"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-11-12 23:51:41
+
+- id: 6
+  name: "{\"en\": \"Star Lord 2\", \"zh\": \"星爵二星\"}"
+  level: 2
+  direct_valid_member_count: 5
+  agent_count: 0
+  invest_amount: "1000.00"
+  team_invest_amount: "150000.00"
+  commission_rate: "0.25"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-11-12 23:51:41
+
+- id: 5
+  name: "{\"en\": \"Star Lord 1\", \"zh\": \"星爵一星\"}"
+  level: 1
+  direct_valid_member_count: 5
+  agent_count: 0
+  invest_amount: "500.00"
+  team_invest_amount: "50000.00"
+  commission_rate: "0.15"
+  created_at: 2023-11-12 23:51:41
+  updated_at: 2023-12-19 00:06:58
+

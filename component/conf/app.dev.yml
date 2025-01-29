@@ -1,0 +1,37 @@
+log:
+    # file std
+    mode: file
+    dir: /var/log/travel
+jwt:
+    open_api_secret: TFdtQxi5QN2haDxA1oD66cGtOCGN
+
+aws:
+    access_key_id: ""
+    access_secret: ""
+    from: ""
+    region: ""
+
+database:
+    travel:
+        host: 127.0.0.1
+        port: 3306
+        user: foyez
+        password: "123"
+        dbname: travel
+redis:
+    default:
+        host: 127.0.0.1
+        port: 6379
+        password:
+        db: 0
+upload_file_dir: /home/wwwroot/travel_storage
+cdn_url: https://cdn.example.com
+
+nsq:
+    addr: 127.0.0.1:4150
+
+oss:
+    endpoint: ""
+    access_key_id: ""
+    access_key_secret: ""
+oss_bucket_name: ""

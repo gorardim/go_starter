@@ -1,0 +1,140 @@
+- fund_id: 20085
+  user_id: 1476
+  from_user_id: 1476
+  amount: "3.33"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:20"
+  reason: "俱乐部收益:0.10"
+  created_at: 2024-01-06 17:13:41
+  updated_at: 2024-01-06 17:13:41
+
+- fund_id: 20084
+  user_id: 1475
+  from_user_id: 1475
+  amount: "3.33"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:19"
+  reason: "俱乐部收益:0.10"
+  created_at: 2024-01-06 17:13:41
+  updated_at: 2024-01-06 17:13:41
+
+- fund_id: 20083
+  user_id: 1474
+  from_user_id: 1474
+  amount: "29.99"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:18"
+  reason: "俱乐部收益:0.20"
+  created_at: 2024-01-06 17:13:41
+  updated_at: 2024-01-06 17:13:41
+
+- fund_id: 20070
+  user_id: 1514
+  from_user_id: 1514
+  amount: "2.03"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:17"
+  reason: "俱乐部收益:0.02"
+  created_at: 2024-01-06 16:53:44
+  updated_at: 2024-01-06 16:53:44
+
+- fund_id: 20069
+  user_id: 1510
+  from_user_id: 1510
+  amount: "12.22"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:16"
+  reason: "俱乐部收益:0.05"
+  created_at: 2024-01-06 16:53:44
+  updated_at: 2024-01-06 16:53:44
+
+- fund_id: 20068
+  user_id: 1506
+  from_user_id: 1506
+  amount: "39.25"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:15"
+  reason: "俱乐部收益:0.10"
+  created_at: 2024-01-06 16:53:43
+  updated_at: 2024-01-06 16:53:43
+
+- fund_id: 20067
+  user_id: 1502
+  from_user_id: 1502
+  amount: "120.17"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:14"
+  reason: "俱乐部收益:0.20"
+  created_at: 2024-01-06 16:53:43
+  updated_at: 2024-01-06 16:53:43
+
+- fund_id: 20066
+  user_id: 1504
+  from_user_id: 1504
+  amount: "0.00"
+  type: "INCOME"
+  account_type: "INCOME"
+  biz_type: "CLUB"
+  order_id: 0
+  withdraw_id: 0
+  biz_id: "club:20240106:13"
+  reason: "俱乐部收益:0.10"
+  created_at: 2024-01-06 16:53:43
+  updated_at: 2024-01-06 16:53:43
+
+- fund_id: 20046
+  user_id: 52
+  from_user_id: 52
+  amount: "0.00"
+  type: "EXPEND"
+  account_type: "INCOME"
+  biz_type: "INVEST"
+  order_id: 1620
+  withdraw_id: 0
+  biz_id: "order:invest:use_income:1475"
+  reason: "用户投资合约"
+  created_at: 2024-01-06 14:43:59
+  updated_at: 2024-01-06 14:43:59
+
+- fund_id: 20045
+  user_id: 52
+  from_user_id: 52
+  amount: "500.00"
+  type: "EXPEND"
+  account_type: "BALANCE"
+  biz_type: "INVEST"
+  order_id: 1620
+  withdraw_id: 0
+  biz_id: "order:invest:use_balance:1475"
+  reason: "用户投资合约"
+  created_at: 2024-01-06 14:43:59
+  updated_at: 2024-01-06 14:43:59
+

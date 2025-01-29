@@ -1,0 +1,11 @@
+- id: 1
+  category_id: 1
+  title: "title"
+  title_en: "title_en"
+  content: "content"
+  content_en: "content_en"
+  sort_num: 1
+  status: "status"
+  created_at: "2021-01-01 00:00:00"
+  updated_at: "2021-01-01 00:00:00"
+

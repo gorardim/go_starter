@@ -1,0 +1,1598 @@
+AMOUNT:
+    zh: USDT 奖励
+    zhtr: USDT獎勵
+    ko: USDT 보상
+    ja: USDT報酬
+    vn: Phần thưởng USDT
+    mn: USDT шагнал
+    pt: Recompensa USDT
+    es: Recompensa USDT
+    fr: Récompense USDT
+    en: USDT reward
+AUDITING:
+    zh: 审核中
+    zhtr: 審核中
+    ko: 감사
+    ja: 監査
+    vn: Kiểm toán
+    mn: Аудит
+    pt: Auditoria
+    es: Auditoría
+    fr: Audit
+    en: Auditing
+AUDIT_NOT_PASS:
+    zh: 审核不通过
+    zhtr: 審核不通過
+    ko: 감사 미통과
+    ja: 監査不合格
+    vn: Kiểm toán không qua
+    mn: Аудитыг давсангүй
+    pt: Não aprovado na auditoria
+    es: No aprobado en auditoría
+    fr: Audit non réussi
+    en: Audit not pass
+AUDIT_PASS:
+    zh: 审核通过
+    zhtr: 審核通過
+    ko: 감사 통과
+    ja: 監査合格
+    vn: Kiểm toán qua
+    mn: Аудитыг давсан
+    pt: Aprovado na auditoria
+    es: Aprobado en auditoría
+    fr: Audit réussi
+    en: Audit pass
+CLUB:
+    zh: 分公司收益
+    zhtr: 分公司收益
+    ko: 클럽
+    ja: クラブ
+    vn: Câu lạc bộ
+    mn: Клуб
+    pt: Clube
+    es: Club
+    fr: Club
+    en: Club
+TODAY_INCOME_CLUB_INCOME:
+    zh: 今日分公司收益
+    zhtr: 今日分公司收益
+    ko: 오늘 클럽 수입
+    ja: 今日クラブ収入
+    vn: Hôm nay thu nhập câu lạc bộ
+    mn: Өнөөдөр клубын орлогын
+    pt: Renda do subcompanye hoje
+    es: Ingresos del subcompany hoy
+    fr: Revenus du subcompany aujourd'hui
+    en: Today subcompany income
+TOTAL_INCOME_CLUB_INCOME:
+    zh: 累积分公司收益
+    zhtr: 累積分公司收益
+    ko: 누적 클럽 수입
+    ja: 累積クラブ収入
+    vn: Tổng thu nhập câu lạc bộ
+    mn: Нийт клубын орлогын
+    pt: Renda total do subcompanye
+    es: Ingresos totales del subcompany
+    fr: Revenu total du subcompany
+    en: Total subcompany income
+CLUB_POINT:
+    zh: 分公司积分
+    zhtr: 分公司積分
+    ko: 클럽 점수
+    ja: クラブスコア
+    vn: Điểm câu lạc bộ
+    mn: Клубын оноо
+    pt: Pontuação do subcompanye
+    es: Puntuación del subcompany
+    fr: Score du subcompany
+    en: Club score
+DAILY:
+    zh: 每日任务
+    zhtr: 每日任務
+    ko: 일일
+    ja: 毎日
+    vn: Hàng ngày
+    mn: Өдөр тутмын
+    pt: Diário
+    es: Diario
+    fr: Quotidien
+    en: Daily
+DEPOSIT:
+    zh: 充值
+    zhtr: 充值
+    ko: 예금
+    ja: 預金
+    vn: Gửi tiền
+    mn: Орлого
+    pt: Depósito
+    es: Depósito
+    fr: Dépôt
+    en: Deposit
+OUTER_CONTRACT_DEPOSIT:
+    zh: 充值
+    zhtr: 充值
+    ko: 예금
+    ja: 預金
+    vn: Gửi tiền
+    mn: Орлого
+    pt: Depósito
+    es: Depósito
+    fr: Dépôt
+    en: Deposit
+EXPEND:
+    zh: 支出
+    zhtr: 支出
+    ko: 지출
+    ja: 支出
+    vn: Chi tiêu
+    mn: Зардал
+    pt: Despesa
+    es: Gasto
+    fr: Dépense
+    en: Expend
+FINISHED:
+    zh: 已完成
+    zhtr: 已完成
+    ko: 완료
+    ja: 完了
+    vn: Hoàn thành
+    mn: Дууссан
+    pt: Concluído
+    es: Finalizado
+    fr: Terminé
+    en: Finished
+INCOME:
+    zh: 收入
+    zhtr: 收入
+    ko: 수입
+    ja: 収入
+    vn: Thu nhập
+    mn: Орлога
+    pt: Renda
+    es: Ingresos
+    fr: Revenu
+    en: Income
+INCOME_RECEIVE:
+    zh: 领取收益
+    zhtr: 領取收益
+    ko: 수입 수령
+    ja: 収入受取
+    vn: Nhận thu nhập
+    mn: Орлогыг хүлээн авах
+    pt: Receber renda
+    es: Recepción de ingresos
+    fr: Revenu reçu
+    en: Income receive
+INVEST:
+    zh: 投资
+    zhtr: 投資
+    ko: 투자
+    ja: 投資
+    vn: Đầu tư
+    mn: Хөрөнгө оруулах
+    pt: Investir
+    es: Invertir
+    fr: Investir
+    en: Invest
+INVEST_FINISH:
+    zh: 投资完成
+    zhtr: 投資完成
+    ko: 투자 완료
+    ja: 投資完了
+    vn: Hoàn thành đầu tư
+    mn: Хөрөнгө оруулалтыг дуусгах
+    pt: Conclusão do investimento
+    es: Finalización de la inversión
+    fr: Fin de l'investissement
+    en: Invest finish
+INVEST_INCOME:
+    zh: 投资
+    zhtr: 投資
+    ko: 투자
+    ja: 投資
+    vn: Đầu tư
+    mn: Хөрөнгө оруулах
+    pt: Investir
+    es: Invertir
+    fr: Investir
+    en: Invest
+INVEST_INCOME_RECORD:
+    zh: 投资收益
+    zhtr: 投資收益
+    ko: 투자
+    ja: 投資
+    vn: Đầu tư
+    mn: Хөрөнгө оруулах
+    pt: Investir
+    es: Invertir
+    fr: Investir
+    en: Invest
+INVEST_INCOME_POINT:
+    zh: 投资积分
+    zhtr: 投資積分
+    ko: 투자 점수
+    ja: 投資スコア
+    vn: Điểm đầu tư
+    mn: Хөрөнгө оруулалтын оноо
+    pt: Pontuação de investimento
+    es: Puntuación de inversión
+    fr: Score d'investissement
+    en: Invest score
+INVEST_SCORE:
+    zh: 投资
+    zhtr: 投資
+    ko: 투자
+    ja: 投資
+    vn: Đầu tư
+    mn: Хөрөнгө оруулах
+    pt: Investir
+    es: Invertir
+    fr: Investir
+    en: Invest
+LEARN:
+    zh: 学习任务
+    zhtr: 學習任務
+    ko: 학습
+    ja: 学習
+    vn: Học
+    mn: Сурах
+    pt: Aprender
+    es: Aprender
+    fr: Apprendre
+    en: Learn
+LEARNING_CENTER:
+    zh: 学习中心
+    zhtr: 學習中心
+    ko: 학습 센터
+    ja: 学習センター
+    vn: Trung tâm học tập
+    mn: Сургалтын төв
+    pt: Centro de Aprendizagem
+    es: Centro de aprendizaje
+    fr: Centre d'apprentissage
+    en: Learning Center
+NEWS:
+    zh: 新闻
+    zhtr: 新聞
+    ko: 뉴스
+    ja: ニュース
+    vn: Tin tức
+    mn: Мэдээ
+    pt: Notícias
+    es: Noticias
+    fr: Nouvelles
+    en: News
+NOVICE:
+    zh: 新手任务
+    zhtr: 新手任務
+    ko: 초보자
+    ja: 初心者
+    vn: Người mới
+    mn: Шинэчлэгч
+    pt: Novato
+    es: Novato
+    fr: Débutant
+    en: Novice
+PAYED:
+    zh: 已打款
+    zhtr: 已打款
+    ko: 지불됨
+    ja: 支払済み
+    vn: Đã thanh toán
+    mn: Төлөгдсөн
+    pt: Pago
+    es: Pagado
+    fr: Payé
+    en: Payed
+PAY_FAILED:
+    zh: 打款失败
+    zhtr: 打款失敗
+    ko: 지불 실패
+    ja: 支払い失敗
+    vn: Thanh toán thất bại
+    mn: Төлбөр төлөх амжилтгүй
+    pt: Falha no pagamento
+    es: Pago fallido
+    fr: Échec du paiement
+    en: Pay failed
+POINT:
+    zh: 积分奖励
+    zhtr: 積分獎勵
+    ko: 점수 보상
+    ja: スコア報酬
+    vn: Phần thưởng điểm
+    mn: Онооны шагнал
+    pt: Recompensa de pontuação
+    es: Recompensa de puntos
+    fr: Récompense de score
+    en: Score reward
+RECOMMEND_DIRECT:
+    zh: 推荐收益
+    zhtr: 推薦收益
+    ko: 직접 추천
+    ja: 直接推薦
+    vn: Giới thiệu trực tiếp
+    mn: Шууд зөвлөх
+    pt: Recomendação direta
+    es: Recomendación directa
+    fr: Recommandation directe
+    en: Direct Recommend
+RECOMMEND_INDIRECT:
+    zh: 间接推荐收益
+    zhtr: 間接推薦收益
+    ko: 간접 추천
+    ja: 間接推薦
+    vn: Giới thiệu gián tiếp
+    mn: Шууд бус зөвлөх
+    pt: Recomendação indireta
+    es: Recomendación indirecta
+    fr: Recommandation indirecte
+    en: Indirect Recommend
+REFUND:
+    zh: 退款
+    zhtr: 退款
+    ko: 환불
+    ja: 返金
+    vn: Hoàn tiền
+    mn: Буцаалт
+    pt: Reembolso
+    es: Reembolso
+    fr: Remboursement
+    en: Refund
+RELEASING:
+    zh: 进行中
+    zhtr: 進行中
+    ko: 출시
+    ja: リリース
+    vn: Phát hành
+    mn: Гаргаж буй
+    pt: Liberando
+    es: Liberación
+    fr: Libération
+    en: Releasing
+RWA:
+    zh: RWA研究
+    zhtr: RWA研究
+    ko: RWA 연구
+    ja: RWA研究
+    vn: Nghiên cứu RWA
+    mn: RWA судалгаа
+    pt: Pesquisa RWA
+    es: Investigación RWA
+    fr: Recherche RWA
+    en: RWA research
+SCORE_TRANSFER:
+    zh: 积分转让
+    zhtr: 積分轉讓
+    ko: 점수 전송
+    ja: スコア転送
+    vn: Chuyển điểm
+    mn: Оноо шилжүүлэх
+    pt: Transferência de pontuação
+    es: Transferencia de puntos
+    fr: Transfert de score
+    en: Score Transfer
+SERVICE_FEE:
+    zh: 服务费
+    zhtr: 服務費
+    ko: 서비스 수수료
+    ja: サービス料
+    vn: Phí dịch vụ
+    mn: Үйлчилгээний хураамж
+    pt: Taxa de serviço
+    es: Tarifa de servicio
+    fr: Frais de service
+    en: Service Fee
+SHARE:
+    zh: 转发
+    zhtr: 轉發
+    ko: 공유
+    ja: 共有
+    vn: Chia sẻ
+    mn: Хуваалцах
+    pt: Compartilhar
+    es: Compartir
+    fr: Partager
+    en: Share
+SIGN:
+    zh: 签到
+    zhtr: 簽到
+    ko: 서명
+    ja: サイン
+    vn: Ký
+    mn: Гарын үсэг зурах
+    pt: Assinar
+    es: Firmar
+    fr: Signer
+    en: Sign
+SUCCEED:
+    zh: 成功
+    zhtr: 成功
+    ko: 성공
+    ja: 成功
+    vn: Thành công
+    mn: Амжилттай
+    pt: Sucesso
+    es: Éxito
+    fr: Succès
+    en: Success
+IN_PROCESS:
+    zh: 进行中
+    zhtr: 進行中
+    ko: 진행 중
+    ja: 進行中
+    vn: Đang tiến hành
+    mn: Хийгдэж буй
+    pt: Em andamento
+    es: En progreso
+    fr: En cours
+    en: In progress
+TASK:
+    zh: 任务
+    zhtr: 任務
+    ko: 작업
+    ja: タスク
+    vn: Nhiệm vụ
+    mn: Даалгавар
+    pt: Tarefa
+    es: Tarea
+    fr: Tâche
+    en: Task
+TASK_INCOME:
+    zh: 任务
+    zhtr: 任務
+    ko: 작업
+    ja: タスク
+    vn: Nhiệm vụ
+    mn: Даалгавар
+    pt: Tarefa
+    es: Tarea
+    fr: Tâche
+    en: Task
+TASK_SCORE:
+    zh: 任务
+    zhtr: 任務
+    ko: 작업
+    ja: タスク
+    vn: Nhiệm vụ
+    mn: Даалгавар
+    pt: Tarefa
+    es: Tarea
+    fr: Tâche
+    en: Task
+TEAM_DIFF_LEVEL:
+    zh: 团队收益
+    zhtr: 團隊收益
+    ko: 팀 차이 레벨
+    ja: チーム異なるレベル
+    vn: Đội khác cấp
+    mn: Багийн ялгаатай түвшин
+    pt: Diferença de nível de equipe
+    es: Nivel de diferencia de equipo
+    fr: Différence de niveau d'équipe
+    en: Team Diff Level
+TEAM_INCOME:
+    zh: 团队
+    zhtr: 團隊
+    ko: 팀
+    ja: チーム
+    vn: Đội
+    mn: Баг
+    pt: Equipe
+    es: Equipo
+    fr: Équipe
+    en: Team
+TEAM_SAME_LEVEL:
+    zh: 平级收益
+    zhtr: 平級收益
+    ko: 팀 동일 레벨
+    ja: チーム同じレベル
+    vn: Đội cùng cấp
+    mn: Багийн адилхан түвшин
+    pt: Mesmo nível de equipe
+    es: Mismo nivel de equipo
+    fr: Même niveau d'équipe
+    en: Team Same Level
+TEAM_SCORE:
+    zh: 分公司
+    zhtr: 分公司
+    en: Subcompany
+    es: rama
+    ko: 지점
+    ja: 支店
+    vn: Chi nhánh
+    mn: Салбар
+    pt: Filial
+    fr: Succursale
+CLUB_INCOME:
+    zh: 分公司
+    zhtr: 分公司
+    en: Subcompany
+    es: rama
+    ko: 지점
+    ja: 支店
+    vn: Chi nhánh
+    mn: Салбар
+    pt: Filial
+    fr: Succursale
+TRAVEL:
+    zh: 旅游
+    zhtr: 旅遊
+    ko: 여행
+    ja: 旅行
+    vn: Du lịch
+    mn: Аялал
+    pt: Viajar
+    es: Viajar
+    fr: Voyage
+    en: Travel
+TRAVEL_SCORE:
+    zh: 商城
+    zhtr: 商城
+    ko: 구매
+    ja: 購入
+    vn: Du lịch
+    mn: Худалдан авалт
+    pt: Compra
+    es: Compra
+    fr: Achat
+    en: Purchase
+TRANSFER_INCOME:
+    zh: 转账
+    zhtr: 轉賬
+    ko: 전송
+    ja: 転送
+    vn: Chuyển khoản
+    mn: Шилжүүлэх
+    pt: Transferir
+    es: Transferir
+    fr: Transfert
+    en: Transfer
+TRANSFER_SCORE:
+    zh: 转账
+    zhtr: 轉賬
+    ko: 전송
+    ja: 転送
+    vn: Chuyển khoản
+    mn: Шилжүүлэх
+    pt: Transferir
+    es: Transferir
+    fr: Transfert
+    en: Transfer
+VIP_CHECK_IN:
+    zh: 签到任务
+    zhtr: 簽到任務
+    ko: 체크인
+    ja: チェックイン
+    vn: Điểm danh
+    mn: Ирц бүртгүүлэх
+    pt: Check-in
+    es: Registro
+    fr: Enregistrement
+    en: Check-in task
+VIP_CHECK_IN_TWO:
+    zh: 分享任务
+    zhtr: 分享任务
+    ko: 일일 공유
+    ja: 毎日のシェア
+    vn: Chia sẻ hàng ngày
+    mn: Өдөр тутмын хуваалцах
+    pt: Compartilhar diariamente
+    es: Compartir diariamente
+    fr: Partage quotidien
+    en: Sharing task
+WITHDRAW:
+    zh: 提现
+    zhtr: 提現
+    ko: 출금
+    ja: 引き出し
+    vn: Rút tiền
+    mn: Татах
+    pt: Retirar
+    es: Retirar
+    fr: Retrait
+    en: Withdraw
+WITHDRAW_INCOME:
+    zh: 提现
+    zhtr: 提現
+    ko: 출금
+    ja: 引き出し
+    vn: Rút tiền
+    mn: Татах
+    pt: Retirar
+    es: Retirar
+    fr: Retrait
+    en: Withdraw
+WITHDRAW_CHARGE:
+    zh: 提现
+    zhtr: 提現
+    ko: 출금 수수료
+    ja: 引き出し料金
+    vn: Phí rút tiền
+    mn: Татан авах хураамж
+    pt: Cobrança de retirada
+    es: Cargo por retiro
+    fr: Frais de retrait
+    en: Withdraw Charge
+WITHDRAW_CHARGE_ROLLBACK:
+    zh: 提现撤回
+    zhtr: 提現撤回
+    ko: 출금 수수료 반환
+    ja: 引き出し料金返還
+    vn: Hoàn lại phí rút tiền
+    mn: Татан авах хураамж буцаах
+    pt: Estorno de cobrança de retirada
+    es: Reversión del cargo por retiro
+    fr: Annulation des frais de retrait
+    en: Withdraw Charge Rollback
+WITHDRAW_SCORE:
+    zh: 服务费
+    zhtr: 服務費
+    ko: 서비스 수수료
+    ja: サービス料
+    vn: Phí dịch vụ
+    mn: Үйлчилгээний хураамж
+    pt: Taxa de serviço
+    es: Tarifa de servicio
+    fr: Frais de service
+    en: Service fee
+CONFIRMED:
+    zh: 已确认
+    zhtr: 已確認
+    ko: 확인됨
+    ja: 確認済み
+    vn: Xác nhận
+    mn: Баталгаажсан
+    pt: Confirmado
+    es: Confirmado
+    fr: Confirmé
+    en: Confirmed
+REFUNDED:
+    zh: 已退款
+    zhtr: 已退款
+    ko: 환불됨
+    ja: 返金済み
+    vn: Hoàn tiền
+    mn: Буцаасан
+    pt: Reembolsado
+    es: Reembolsado
+    fr: Remboursé
+    en: Refunded
+WITHDRAW_ROLLBACK:
+    zh: 提现驳回
+    zhtr: 提現駁回
+    ko: 출금 거부됨
+    ja: 引き出し拒否
+    vn: Từ chối rút tiền
+    mn: Татан авах татгалзсан
+    pt: Retirada rejeitada
+    es: Retiro rechazado
+    fr: Retrait refusé
+    en: Withdraw Rejected
+USERNAME_OR_PASSWORD_IS_EMPTY:
+    zh: 用户名或密码为空
+    zhtr: 用戶名或密碼為空
+    ko: 사용자 이름 또는 비밀번호가 비어 있음
+    ja: ユーザー名またはパスワードが空
+    vn: Tên đăng nhập hoặc mật khẩu trống
+    mn: Хэрэглэгчийн нэр эсвэл нууц үг хоосон байна
+    pt: Nome de usuário ou senha vazio
+    es: Nombre de usuario o contraseña vacío
+    fr: Nom d'utilisateur ou mot de passe vide
+    en: Username or password is empty
+USER_IS_LOG_OFF:
+    zh: 用户已注销
+    zhtr: 用戶已註銷
+    ko: 사용자 로그오프
+    ja: ユーザーがログオフ
+    vn: Người dùng đã đăng xuất
+    mn: Хэрэглэгч гарсан байна
+    pt: Usuário desconectado
+    es: Usuario desconectado
+    fr: Utilisateur déconnecté
+    en: User is log off
+USERNAME_OR_PASSWORD_IS_ERROR:
+    zh: 用户名或密码错误
+    zhtr: 用戶名或密碼錯誤
+    ko: 사용자 이름 또는 비밀번호 오류
+    ja: ユーザー名またはパスワードが間違っている
+    vn: Tên đăng nhập hoặc mật khẩu sai
+    mn: Хэрэглэгчийн нэр эсвэл нууц үг буруу байна
+    pt: Erro no nome de usuário ou senha
+    es: Error en nombre de usuario o contraseña
+    fr: Nom d'utilisateur ou mot de passe incorrect
+    en: Username or password is error
+USER_IS_DISABLE:
+    zh: 用户已禁用
+    zhtr: 用戶已禁用
+    ko: 사용자 비활성화
+    ja: ユーザーが無効
+    vn: Người dùng bị vô hiệu
+    mn: Хэрэглэгч идэвхгүй байна
+    pt: Usuário desabilitado
+    es: Usuario inhabilitado
+    fr: Utilisateur désactivé
+    en: User is disable
+INVITE_CODE_IS_EMPTY:
+    zh: 邀请码为空
+    zhtr: 邀請碼為空
+    ko: 초대 코드가 비어 있음
+    ja: 招待コードが空
+    vn: Mã mời trống
+    mn: Урилгын код хоосон байна
+    pt: Código de convite vazio
+    es: Código de invitación vacío
+    fr: Code d'invitation vide
+    en: Invite code is empty
+INVITE_CODE_IS_INVALID:
+    zh: 邀请码无效
+    zhtr: 邀請碼無效
+    ko: 초대 코드가 유효하지 않음
+    ja: 招待コードが無効
+    vn: Mã mời không hợp lệ
+    mn: Урилгын код хүчингүй байна
+    pt: Código de convite inválido
+    es: Código de invitación inválido
+    fr: Code d'invitation invalide
+    en: Invite code is invalid
+USERNAME_IS_EXISTS:
+    zh: 用户名已存在
+    zhtr: 用戶名已存在
+    ko: 사용자 이름이 이미 존재함
+    ja: ユーザー名が存在する
+    vn: Tên người dùng đã tồn tại
+    mn: Хэрэглэгчийн нэр давхцсан байна
+    pt: Nome de usuário já existe
+    es: Nombre de usuario ya existe
+    fr: Nom d'utilisateur existant
+    en: Username is exists
+QUESTION_IS_NOT_EXISTS:
+    zh: "问题%d不存在"
+    zhtr: "問題%d不存在"
+    ko: "질문 %d가 존재하지 않음"
+    ja: "質問%dが存在しない "
+    vn: "Câu hỏi %d không tồn tại"
+    mn: "%d асуулт байхгүй байна"
+    pt: "Pergunta %d não existe"
+    es: "Pregunta %d no existe"
+    fr: "Question %d inexistante"
+    en: "Question %d is not exists"
+TOKEN_IS_EXPIRED:
+    zh: Token已过期
+    zhtr: Token已過期
+    ko: 토큰 만료됨
+    ja: トークンの有効期限切れ
+    vn: Token hết hạn
+    mn: Token хугацаа дууссан
+    pt: Token expirado
+    es: Token expirado
+    fr: Token expiré
+    en: Token is expired
+PASSWORD_IS_NOT_SAME:
+    zh: 密码和确认密码不一致
+    zhtr: 密碼和確認密碼不一致
+    ko: 비밀번호와 확인 비밀번호가 일치하지 않음
+    ja: パスワードと確認パスワードが一致しない
+    vn: Mật khẩu và xác nhận mật khẩu không giống nhau
+    mn: Нууц үг ба нууц үгийн баталгаа ижил биш байна
+    pt: Senha e confirmação de senha não coincidem
+    es: Contraseña y confirmación no coinciden
+    fr: Mot de passe et confirmation différents
+    en: Password and confirm password is not same
+REQUEST_TOO_MANY_TIMES:
+    zh: 请求次数过多
+    zhtr: 請求次數過多
+    ko: 요청이 너무 많음
+    ja: リクエストが多すぎる
+    vn: Yêu cầu quá nhiều lần
+    mn: Хэт их хүсэлт илгээсэн
+    pt: Muitos pedidos
+    es: Demasiadas solicitudes
+    fr: Trop de demandes
+    en: Request too many times
+SYSTEM_ERROR:
+    zh: 系统错误，请重试
+    zhtr: 系統錯誤，請重試
+    ko: 시스템 오류, 다시 시도하세요
+    ja: システムエラー、もう一度お試しください
+    vn: Lỗi hệ thống, vui lòng thử lại
+    mn: Системийн алдаа, дахин оролдоно уу
+    pt: Erro do sistema, por favor tente novamente
+    es: Error del sistema, por favor intente de nuevo
+    fr: Erreur système, veuillez réessayer
+    en: System error,please try again
+TWO_FA_IS_DISABLE:
+    zh: 两步验证已禁用
+    zhtr: 兩步驗證已禁用
+    ko: 2단계 인증 비활성화됨
+    ja: 二要素認証が無効
+    vn: Xác thực hai yếu tố bị vô hiệu
+    mn: Хоёр хүчин зүйл баталгаажуулах идэвхгүй байна
+    pt: Autenticação de dois fatores desativada
+    es: Autenticación de dos factores desactivada
+    fr: Authentification à deux facteurs désactivée
+    en: Two factor authentication is disable
+TWO_FA_CODE_IS_ERROR:
+    zh: 两步验证验证码错误
+    zhtr: 兩步驗證驗證碼錯誤
+    ko: 2단계 인증 코드 오류
+    ja: 二要素認証コードエラー
+    vn: Mã xác thực hai yếu tố sai
+    mn: Хоёр хүчин зүйл баталгаажуулах код алдаатай байна
+    pt: Erro no código de autenticação de dois fatores
+    es: Error en el código de autenticación de dos factores
+    fr: Code d'authentification à deux facteurs incorrect
+    en: Two factor authentication code is error
+TRIP_IS_APPLIED:
+    zh: 您已经申请过此旅游
+    zhtr: 您已經申請過此旅遊
+    ko: 이미 이 여행에 신청함
+    ja: 既にこの旅行に申し込んでいる
+    vn: Bạn đã nộp đơn cho chuyến đi này
+    mn: Та энэ аялалд хүсэлт гаргасан байна
+    pt: Você já se inscreveu para esta viagem
+    es: Ya ha solicitado este viaje
+    fr: Vous avez déjà postulé pour ce voyage
+    en: You have already applied for this trip
+# travel not exists
+TRIP_IS_NOT_EXISTS:
+    zh: 旅游不存在
+    zhtr: 旅遊不存在
+    ko: 여행이 존재하지 않음
+    ja: 旅行が存在しない
+    vn: Chuyến đi không tồn tại
+    mn: Аялал байхгүй байна
+    pt: Viagem não existe
+    es: El viaje no existe
+    fr: Voyage inexistant
+    en: Travel is not exists
+RECORD_NOT_FOUND:
+    zh: 记录不存在
+    zhtr: 記錄不存在
+    ko: 기록을 찾을 수 없음
+    ja: 記録が見つからない
+    vn: Không tìm thấy bản ghi
+    mn: Бичлэг олдсонгүй
+    pt: Registro não encontrado
+    es: Registro no encontrado
+    fr: Enregistrement introuvable
+    en: Record not found
+CLUB_NOT_EXISTS:
+    zh: 分公司不存在
+    zhtr: 分公司不存在
+    ko: 클럽이 존재하지 않음
+    ja: クラブが存在しない
+    vn: Câu lạc bộ không tồn tại
+    mn: Клуб байхгүй байна
+    pt: Clube não existe
+    es: El subcompany no existe
+    fr: Club inexistant
+    en: Club is not exists
+CONTRACT_IS_OFFLINE:
+    zh: 合约已下线
+    zhtr: 合約已下線
+    ko: 계약이 오프라인
+    ja: 契約がオフライン
+    vn: Hợp đồng không còn hiệu lực
+    mn: Гэрээ офлайн байна
+    pt: Contrato offline
+    es: Contrato fuera de línea
+    fr: Contrat hors ligne
+    en: Contract is offline
+CONTRACT_PRODUCT_IS_EMPTY:
+    zh: 合约产品为空
+    zhtr: 合約產品為空
+    ko: 계약 상품이 비어 있음
+    ja: 契約商品が空
+    vn: Sản phẩm hợp đồng trống
+    mn: Гэрээний бүтээгдэхүүн хоосон байна
+    pt: Produto de contrato vazio
+    es: Producto de contrato vacío
+    fr: Produit de contrat vide
+    en: Contract product is empty
+BALANCE_NOT_ENOUGH:
+    zh: 余额不足
+    zhtr: 餘額不足
+    ko: 잔액이 부족함
+    ja: 残高不足
+    vn: Số dư không đủ
+    mn: Жинхэнэ хүрэлцэхгүй байна
+    pt: Saldo insuficiente
+    es: Saldo insuficiente
+    fr: Solde insuffisant
+    en: Balance not enough
+ASSETS_NOT_ENOUGH:
+    zh: 资产不足
+    zhtr: 資產不足
+    ko: 자산이 부족함
+    ja: 資産不足
+    vn: Tài sản không đủ
+    mn: Хөрөнгө хүрэлцэхгүй байна
+    pt: Ativos insuficientes
+    es: Activos insuficientes
+    fr: Actifs insuffisants
+    en: Assets not enough
+INCOME_NOT_ENOUGH:
+    zh: 收益不足
+    zhtr: 收益不足
+    ko: 수입이 부족함
+    ja: 収入不足
+    vn: Thu nhập không đủ
+    mn: Орлога хүрэлцэхгүй байна
+    pt: Renda insuficiente
+    es: Ingresos insuficientes
+    fr: Revenu insuffisant
+    en: Income not enough
+ACCOUNT_TYPES_IS_EMPTY:
+    zh: 账户类型为空
+    zhtr: 賬戶類型為空
+    ko: 계정 유형이 비어 있음
+    ja: アカウントタイプが空
+    vn: Loại tài khoản trống
+    mn: Дансны төрөл хоосон байна
+    pt: Tipos de conta vazios
+    es: Tipos de cuenta vacíos
+    fr: Types de compte vides
+    en: Account types is empty
+PAY_PASSWORD_NOT_SET:
+    zh: 支付密码未设置
+    zhtr: 支付密碼未設置
+    ko: 지불 비밀번호가 설정되지 않음
+    ja: 支払いパスワードが設定されていない
+    vn: Chưa thiết lập mật khẩu thanh toán
+    mn: Төлбөрийн нууц үг тогтоогоогүй байна
+    pt: Senha de pagamento não definida
+    es: Contraseña de pago no establecida
+    fr: Mot de passe de paiement non défini
+    en: Pay password not set
+PAY_PASSWORD_ERROR:
+    zh: 支付密码错误
+    zhtr: 支付密碼錯誤
+    ko: 지불 비밀번호 오류
+    ja: 支払いパスワードエラー
+    vn: Lỗi mật khẩu thanh toán
+    mn: Төлбөрийн нууц үг алдаатай байна
+    pt: Erro na senha de pagamento
+    es: Error en contraseña de pago
+    fr: Erreur de mot de passe de paiement
+    en: Pay password error
+INVEST_AMOUNT_MUST_BE_GREATER_THAN:
+    zh: "投资金额必须>=%sUSDT"
+    zhtr: "投資金額必須>=%sUSDT"
+    ko: "투자 금액은 %sUSDT 이상이어야 함"
+    ja: "投資額は%sUSDT以上でなければならない"
+    vn: "Số tiền đầu tư phải >=%sUSDT"
+    mn: "Хөрөнгө оруулалтын хэмжээ %sUSDT-аас дээш байх ёстой"
+    pt: "Montante de investimento deve ser >=%sUSDT"
+    es: "Monto de inversión debe ser >=%sUSDT"
+    fr: "Montant d'investissement doit être >=%sUSDT"
+    en: "Invest amount must be >=%sUSDT"
+INVEST_AMOUNT_MUST_BE_LESS_THAN:
+    zh: "投资金额必须<=%sUSDT"
+    zhtr: "投資金額必須<=%sUSDT"
+    ko: "투자 금액은 %sUSDT 이하여야 함"
+    ja: "投資額は%sUSDT以下でなければならない"
+    vn: "Số tiền đầu tư phải <=%sUSDT"
+    mn: "Хөрөнгө оруулалтын хэмжээ %sUSDT-аас доош байх ёстой"
+    pt: "Montante de investimento deve ser <=%sUSDT"
+    es: "Monto de inversión debe ser <=%sUSDT"
+    fr: "Montant d'investissement doit être <=%sUSDT"
+    en: "Invest amount must be <=%sUSDT"
+RESET_PASSWORD_TIMES_IS_MAX:
+    zh: 重置密码次数已达上限
+    zhtr: 重置密碼次數已達上限
+    ko: 비밀번호 재설정 횟수 최대
+    ja: パスワードリセット回数が最大
+    vn: Số lần đặt lại mật khẩu đã tối đa
+    mn: Нууц үгийг шинэчлэх хугацаа хамгийн их байна
+    pt: Número máximo de redefinições de senha
+    es: Número máximo de restablecimientos de contraseña
+    fr: Nombre maximal de réinitialisation du mot de passe
+    en: Reset password times is max
+ANSWER_IS_EMPTY:
+    zh: 答案为空
+    zhtr: 答案為空
+    ko: 답변이 비어 있음
+    ja: 回答が空
+    vn: Câu trả lời trống
+    mn: Хариулт хоосон байна
+    pt: Resposta vazia
+    es: Respuesta vacía
+    fr: Réponse vide
+    en: Answer is empty
+SAFE_QUESTION_IS_EMPTY:
+    zh: 安全问题为空
+    zhtr: 安全問題為空
+    ko: 보안 질문이 비어 있음
+    ja: 安全質問が空
+    vn: Câu hỏi an toàn trống
+    mn: Аюулгүй асуулт хоосон байна
+    pt: Pergunta de segurança vazia
+    es: Pregunta de seguridad vacía
+    fr: Question de sécurité vide
+    en: Safe question is empty
+ANSWER_IS_ERROR:
+    zh: 验证失败
+    zhtr: 验证失败
+    ko: 검증 실패
+    ja: 検証失敗
+    vn: Xác minh thất bại
+    mn: Баталгаажуулах алдаа
+    pt: Falha na verificação
+    es: Error de verificación
+    fr: Échec de vérification
+    en: Answer is error
+SAFE_QUESTION_NOT_MATCH:
+    zh: 安全问题不匹配
+    zhtr: 安全問題不匹配
+    ko: 보안 질문이 일치하지 않음
+    ja: 安全質問が一致しない
+    vn: Câu hỏi an toàn không khớp
+    mn: Аюулгүй асуулт тохирохгүй байна
+    pt: Pergunta de segurança não corresponde
+    es: Pregunta de seguridad no coincide
+    fr: Incohérence des questions de sécurité
+    en: Safe question not match
+# "hit answer count is zero, please check answer"
+HIT_ANSWER_COUNT_IS_ZERO:
+    zh: 答案错误，请检查答案
+    zhtr: 答案錯誤，請檢查答案
+    ko: 정답 횟수가 0, 답변을 확인하세요
+    ja: 正解回数が0、回答を確認してください
+    vn: Số lần trả lời chính xác là 0, vui lòng kiểm tra
+    mn: Зөв хариултын тоо 0 байна, хариултыг шалгана уу
+    pt: Número de respostas corretas é zero, por favor verifique
+    es: Número de respuestas correctas es cero, por favor verifique
+    fr: Nombre de réponses correctes nul, veuillez vérifier
+    en: Hit answer count is zero, please check answer
+# review count not enough
+REVIEW_COUNT_NOT_ENOUGH:
+    zh: 评论次数不足
+    zhtr: 評論次數不足
+    ko: 리뷰 횟수가 부족함
+    ja: レビュー回数が不足
+    vn: Số lượng đánh giá không đủ
+    mn: Шүүмжлэлийн тоо хүрэлцэхгүй байна
+    pt: Número insuficiente de avaliações
+    es: Cantidad insuficiente de reseñas
+    fr: Nombre de critiques insuffisant
+    en: Review count not enough
+NO_ORDER_PLACED:
+    zh: 未下单，无法评论
+    zhtr: 未下單，無法評論
+    ko: 주문이 없어 댓글을 남길 수 없음
+    ja: 注文がないためコメントできない
+    vn: Không có đơn hàng, không thể bình luận
+    mn: Захиалга өгөөгүй бол сэтгэгдэл үлдээж чадахгүй
+    pt: Não é possível comentar sem pedido
+    es: No se puede comentar sin pedido
+    fr: Impossible de commenter sans commande
+    en: No order placed, unable to comment
+LOGIN_EXPIRED:
+    zh: 登录已过期，请重新登录
+    zhtr: 登錄已過期，請重新登錄
+    ko: 로그인 만료, 다시 로그인하세요
+    ja: ログイン期限切れ、再ログインしてください
+    vn: Đăng nhập hết hạn, vui lòng đăng nhập lại
+    mn: Нэвтрэх хугацаа дууссан, дахин нэвтрэнэ үү
+    pt: Sessão expirada, por favor faça login novamente
+    es: Sesión caducada, por favor inicie sesión de nuevo
+    fr: Connexion expirée, veuillez vous reconnecter
+    en: Login expired, please login again
+OLD_CANNOT_BE_SAME_AS_NEW:
+    zh: 旧密码不能与新密码相同
+    zhtr: 舊密碼不能與新密碼相同
+    ko: 이전 비밀번호가 새 비밀번호와 같을 수 없음
+    ja: 古いパスワードが新しいパスワードと同じであってはならない
+    vn: Mật khẩu cũ không được giống mật khẩu mới
+    mn: Шинэ нууц үг нь хуучин нууц үгтэй ижил байж болохгүй
+    pt: A antiga senha não pode ser a mesma que a nova
+    es: La antigua contraseña no puede ser igual a la nueva
+    fr: L'ancien mot de passe ne peut être le même que le nouveau
+    en: Old password cannot be the same as new password
+PASSWORD_MUST_BE_SIX_DIGITS:
+    zh: 密码必须为六位数字
+    zhtr: 密碼必須為六位數字
+    ko: 비밀번호는 6자리 숫자여야 함
+    ja: パスワードは6桁の数字でなければならない
+    vn: Mật khẩu phải là sáu chữ số
+    mn: Нууц үг нь зургаан оронтой тоо байх ёстой
+    pt: A senha deve ser de seis dígitos
+    es: La contraseña debe ser de seis dígitos
+    fr: Le mot de passe doit être de six chiffres
+    en: Password must be six digits
+PASSWORD_MUST_BE_NUMBERS:
+    zh: 密码必须为数字
+    zhtr: 密碼必須為數字
+    ko: 비밀번호는 숫자여야 함
+    ja: パスワードは数字でなければならない
+    vn: Mật khẩu phải là số
+    mn: Нууц үг нь тоо байх ёстой
+    pt: A senha deve ser numérica
+    es: La contraseña debe ser numérica
+    fr: Le mot de passe doit être numérique
+    en: Password must be numbers
+PASSWORD_CAN_NOT_BE_ALL_SAME:
+    zh: 密码数字不能相同
+    zhtr: 密碼數字不能相同
+    ko: 비밀번호 숫자가 모두 같을 수 없음
+    ja: パスワードの数字がすべて同じであってはならない
+    vn: Các chữ số mật khẩu không được giống nhau
+    mn: Нууц үгний орон нь ижил байж болохгүй
+    pt: Os dígitos da senha não podem ser iguais
+    es: Los dígitos de la contraseña no pueden ser iguales
+    fr: Les chiffres du mot de passe ne peuvent être identiques
+    en: Password digits cannot be the same.
+PASSWORD_CAN_NOT_BE_CONTINUOUS:
+    zh: 密码不能连续
+    zhtr: 密碼不能連續
+    ko: 비밀번호는 연속적일 수 없음
+    ja: パスワードは連続してはいけない
+    vn: Mật khẩu không được liên tiếp
+    mn: Нууц үг нь дараалсан байж болохгүй
+    pt: A senha não pode ser consecutiva
+    es: La contraseña no puede ser consecutiva
+    fr: Le mot de passe ne peut être consécutif
+    en: Password can not be continuous
+OLD_PASSWORD_NOT_MATCH:
+    zh: 旧密码不匹配
+    zhtr: 舊密碼不匹配
+    ko: 이전 비밀번호가 일치하지 않음
+    ja: 古いパスワードが一致しない
+    vn: Mật khẩu cũ không khớp
+    mn: Хуучин нууц үг тохирохгүй байна
+    pt: A antiga senha não corresponde
+    es: La antigua contraseña no coincide
+    fr: L'ancien mot de passe ne correspond pas
+    en: Old password not match
+INCOME_TRANSFER:
+    zh: 转账
+    zhtr: 轉賬
+    ko: 전송
+    ja: 転送
+    vn: Chuyển khoản
+    mn: Шилжүүлэх
+    pt: Transferir
+    es: Transferir
+    fr: Transfert
+    en: Transfer
+BALANCE_TRANSFER:
+    zh: 转账
+    zhtr: 轉賬
+    ko: 전송
+    ja: 転送
+    vn: Chuyển khoản
+    mn: Шилжүүлэх
+    pt: Transferir
+    es: Transferir
+    fr: Transfert
+    en: Transfer
+TRY_TOO_MANY_TIMES:
+    zh: 尝试次数过多，请稍后再试
+    zhtr: 嘗試次數過多，請稍後再試
+    ko: 시도가 너무 많아 나중에 다시 시도하세요
+    ja: 試行回数が多すぎるため、後ほど再試行してください
+    vn: Thử quá nhiều lần, vui lòng thử lại sau
+    mn: Хэт их оролдлого хийсэн, дараа дахин оролдоно уу
+    pt: Muitas tentativas, por favor tente novamente mais tarde
+    es: Demasiados intentos, por favor intente más tarde
+    fr: Trop d'essais, veuillez réessayer plus tard
+    en: Try too many times, please try again later
+PAY_PASSWORD_HAS_LOCKED:
+    zh: 支付密码已锁定，请稍后再试
+    zhtr: 支付密碼已鎖定，請稍後再試
+    ko: 지불 비밀번호가 잠겨 있음, 나중에 다시 시도하세요
+    ja: 支払いパスワードがロックされています。後ほど再試行してください
+    vn: Mật khẩu thanh toán đã bị khóa, vui lòng thử lại sau
+    mn: Төлбөрийн нууц үг цоожлогдсон, дараа дахин оролдоно уу
+    pt: Senha de pagamento bloqueada, por favor tente novamente mais tarde
+    es: Contraseña de pago bloqueada, por favor intente más tarde
+    fr: Mot de passe de paiement verrouillé, veuillez réessayer plus tard
+    en: Pay password has locked, please try again later
+STAFF_USER_CAN_NOT_WITHDRAW:
+    zh: 当前用户不能提现
+    zhtr: 當前用戶不能提現
+    ko: 현재 사용자는 출금할 수 없음
+    ja: 現在のユーザーは引き出しできない
+    vn: Người dùng hiện tại không thể rút tiền
+    mn: Одоогийн хэрэглэгч мөнгө буцааж чадахгүй байна
+    pt: Usuário atual não pode retirar
+    es: El usuario actual no puede retirar
+    fr: L'utilisateur actuel ne peut pas retirer
+    en: Current user can not withdraw
+STAFF_USER_CAN_NOT_TRANSFER:
+    zh: 当前用户不能转账
+    zhtr: 當前用戶不能轉賬
+    ko: 현재 사용자는 전송할 수 없음
+    ja: 現在のユーザーは転送できない
+    vn: Người dùng hiện tại không thể chuyển khoản
+    mn: Одоогийн хэрэглэгч мөнгө шилжүүлж чадахгүй байна
+    pt: Usuário atual não pode transferir
+    es: El usuario actual no puede transferir
+    fr: L'utilisateur actuel ne peut pas transférer
+    en: Current user can not transfer
+2FA_CODE_IS_ERROR:
+    zh: 无效的验证码
+    zhtr: 無效的驗證碼
+    ko: 유효하지 않은 인증 코드
+    ja: 無効な検証コード
+    vn: Mã xác minh không hợp lệ
+    mn: Баталгаажуулах код буруу байна
+    pt: Código de verificação inválido
+    es: Código de verificación inválido
+    fr: Code de vérification invalide
+    en: Invalid Verification Code
+WEEKEND_CAN_NOT_WITHDRAW:
+    zh: 周末不能提现
+    zhtr: 週末不能提現
+    ko: 주말에는 출금할 수 없음
+    ja: 週末は引き出しできない
+    vn: Không thể rút tiền vào cuối tuần
+    mn: Амралтын өдрүүдэд мөнгө буцааж чадахгүй байна
+    pt: Não é possível retirar no fim de semana
+    es: No se puede retirar en fin de semana
+    fr: Retrait impossible le week-end
+    en: Weekend can not withdraw
+MEMBER:
+    zh: 会员
+    zhtr: 會員
+    ko: 회원
+    ja: 会員
+    vn: Thành viên
+    mn: Гишүүн
+    pt: Membro
+    es: Miembro
+    fr: Membre
+    en: Member
+USER:
+    zh: 用户
+    zhtr: 用戶
+    ko: 사용자
+    ja: ユーザー
+    vn: Người dùng
+    mn: Хэрэглэгч
+    pt: Usuário
+    es: Usuario
+    fr: Utilisateur
+    en: User
+ALL:
+    zh: 全部
+    zhtr: 全部
+    ko: 전체
+    ja: 全部
+    vn: Tất cả
+    mn: Бүгд
+    pt: Todos
+    es: Todos
+    fr: Tous
+    en: All
+DAYS:
+    zh: 日
+    zhtr: 日
+    ko: 일
+    ja: 日
+    vn: Ngày
+    mn: Өдөр
+    pt: Dias
+    es: Días
+    fr: Jours
+    en: Days
+TODAY_INVEST_SCORE:
+    zh: 今日投资积分
+    zhtr: 今日投資積分
+    ko: 오늘의 투자 포인트
+    ja: 今日の投資ポイント
+    vn: Điểm đầu tư hôm nay
+    mn: Өнөөдрийн хөрөнгө оруулалтын оноо
+    pt: Pontos de investimento de hoje
+    es: Puntos de inversión de hoy
+    fr: Points d'investissement d'aujourd'hui
+    en: Today's investment points
+TODAY_TASK_SCORE:
+    zh: 今日任务积分
+    zhtr: 今日任務積分
+    ko: 오늘의 임무 포인트
+    ja: 今日のタスクポイント
+    vn: Điểm nhiệm vụ hôm nay
+    mn: Өнөөдрийн даалгаврын оноо
+    pt: Pontos de tarefa de hoje
+    es: Puntos de tarea de hoy
+    fr: Points de tâche d'aujourd'hui
+    en: Today's task points
+TODAY_TRAVEL_SCORE:
+    zh: 今日消费
+    zhtr: 今日消費
+    ko: 오늘의 소비
+    ja: 今日の消費
+    vn: Tiêu dùng hôm nay
+    mn: Өнөөдрийн худалдан авалт
+    pt: Consumo de hoje
+    es: Consumo de hoy
+    fr: Consommation d'aujourd'hui
+    en: Today's purchase
+TODAY_TRANSFER_SCORE:
+    zh: 今日转账积分额
+    zhtr: 今日轉賬積分额
+    ko: 오늘의 이체 포인트
+    ja: 今日の振込ポイント
+    vn: Điểm chuyển khoản hôm nay
+    mn: Өнөөдрийн шилжүүлэг
+    pt: Pontos de transferência de hoje
+    es: Puntos de transferencia de hoy
+    fr: Points de transfert d'aujourd'hui
+    en: Today's transfer points
+TODAY_WITHDRAW_SCORE:
+    zh: 今日服务费
+    zhtr: 今日服務費
+    ko: 오늘의 서비스 수수료
+    ja: 今日のサービス料
+    vn: Phí dịch vụ hôm nay
+    mn: Өнөөдрийн үйлчилгээний хураамж
+    pt: Taxa de serviço de hoje
+    es: Tarifa de servicio de hoy
+    fr: Frais de service d'aujourd'hui
+    en: Today's service fee
+TODAY_TEAM_SCORE:
+    zh: 今日收益积分
+    zhtr: 今日收益積分
+    ko: 오늘의 수익 포인트
+    ja: 今日の収益ポイント
+    vn: Điểm thu nhập hôm nay
+    mn: Өнөөдрийн ашиг олголтын оноо
+    pt: Pontos de rendimento de hoje
+    es: Puntos de ingresos de hoy
+    fr: Points de revenus d'aujourd'hui
+    en: Today's income points
+TOTAL_INVEST_SCORE:
+    zh: 累计投资积分
+    zhtr: 累計投資積分
+    ko: 누적 투자 포인트
+    ja: 累積投資ポイント
+    vn: Tổng điểm đầu tư tích lũy
+    mn: Нийт хөрөнгө оруулалтын оноо
+    pt: Pontos de investimento acumulados
+    es: Puntos de inversión acumulados
+    fr: Points d'investissement cumulés
+    en: Total investment points
+TOTAL_TASK_SCORE:
+    zh: 累计任务积分
+    zhtr: 累計任務積分
+    ko: 누적 임무 포인트
+    ja: 累積タスクポイント
+    vn: Tổng điểm nhiệm vụ tích lũy
+    mn: Нийт даалгаврын оноо
+    pt: Pontos de tarefa acumulados
+    es: Puntos de tarea acumulados
+    fr: Points de tâche cumulés
+    en: Total task points
+TOTAL_TRAVEL_SCORE:
+    zh: 累计消费
+    zhtr: 累計消費
+    ko: 누적 소비
+    ja: 累積消費
+    vn: Tổng tiêu dùng tích lũy
+    mn: Нийт худалдан авалт
+    pt: Consumo acumulado
+    es: Consumo acumulado
+    fr: Consommation cumulée
+    en: Total purchase
+TOTAL_TRANSFER_SCORE:
+    zh: 累计转账积分额
+    zhtr: 累計轉賬積分额
+    ko: 누적 이체 포인트
+    ja: 累積振込ポイント
+    vn: Tổng điểm chuyển khoản tích lũy
+    mn: Нийт шилжүүлэлтийн оноо
+    pt: Pontos de transferência acumulados
+    es: Puntos de transferencia acumulados
+    fr: Points de transfert cumulés
+    en: Total transfer points
+TOTAL_WITHDRAW_SCORE:
+    zh: 累计服务费
+    zhtr: 累計服務費
+    ko: 누적 서비스 수수료
+    ja: 累積サービス料
+    vn: Tổng phí dịch vụ tích lũy
+    mn: Нийт үйлчилгээний хураамж
+    pt: Taxa de serviço acumulada
+    es: Tarifa de servicio acumulada
+    fr: Frais de service cumulés
+    en: Total service fee
+TOTAL_TEAM_SCORE:
+    zh: 累计收益积分
+    zhtr: 累計收益積分
+    ko: 누적 수익 포인트
+    ja: 累積収益ポイント
+    vn: Tổng điểm thu nhập tích lũy
+    mn: Нийт ашиг олголтын оноо
+    pt: Pontos de rendimento acumulados
+    es: Puntos de ingresos acumulados
+    fr: Points de revenus cumulés
+    en: Total income points
+TODAY_INCOME_INVEST_INCOME:
+    zh: 今日投资收益
+    zhtr: 今日投資收益
+    ko: 일일 투자 수익
+    ja: 日投資収益
+    vn: Lợi nhuận đầu tư hàng ngày
+    mn: Өдөр тутмын хөрөнгө оруулалтын ашиг
+    pt: Rendimento de investimento diário
+    es: Rendimiento de inversión diario
+    fr: Rendement d'investissement quotidien
+    en: Daily investment earnings
+TOTAL_INCOME_INVEST_INCOME:
+    zh: 累计投资收益
+    zhtr: 累計投資收益
+    ko: 누적 투자 수익
+    ja: 累積投資収益
+    vn: Lợi nhuận đầu tư tích lũy
+    mn: Нийт хөрөнгө оруулалтын ашиг
+    pt: Rendimento de investimento acumulado
+    es: Rendimiento de inversión acumulado
+    fr: Rendement d'investissement cumulé
+    en: Total investment earnings
+TODAY_INCOME_TEAM_INCOME:
+    zh: 今日团队收益
+    zhtr: 今日團隊收益
+    ko: 일일 팀 수익
+    ja: 日チーム収益
+    vn: Lợi nhuận nhóm hàng ngày
+    mn: Өдөр тутмын багийн ашиг
+    pt: Rendimento de equipe diário
+    es: Rendimiento del equipo diario
+    fr: Rendement d'équipe quotidien
+    en: Daily team earnings
+TOTAL_INCOME_TEAM_INCOME:
+    zh: 累计团队收益
+    zhtr: 累計團隊收益
+    ko: 누적 팀 수익
+    ja: 累積チーム収益
+    vn: Lợi nhuận nhóm tích lũy
+    mn: Нийт багийн ашиг
+    pt: Rendimento de equipe acumulado
+    es: Rendimiento del equipo acumulado
+    fr: Rendement d'équipe cumulé
+    en: Total team earnings
+TODAY_INCOME_TASK_INCOME:
+    zh: 今日任务收益
+    zhtr: 今日任務收益
+    ko: 일일 임무 수익
+    ja: 日タスク収益
+    vn: Lợi nhuận nhiệm vụ hàng ngày
+    mn: Өдөр тутмын даалгаврын ашиг
+    pt: Rendimento de tarefa diário
+    es: Rendimiento de tarea diario
+    fr: Rendement de tâche quotidien
+    en: Daily task earnings
+TOTAL_INCOME_TASK_INCOME:
+    zh: 累计任务收益
+    zhtr: 累計任務收益
+    ko: 누적 임무 수익
+    ja: 累積タスク収益
+    vn: Lợi nhuận nhiệm vụ tích lũy
+    mn: Нийт даалгаврын ашиг
+    pt: Rendimento de tarefa acumulado
+    es: Rendimiento de tarea acumulado
+    fr: Rendement de tâche cumulé
+    en: Total task earnings
+TODAY_INCOME_WITHDRAW_INCOME:
+    zh: 今日提现额
+    zhtr: 今日提現額
+    ko: 일일 출금액
+    ja: 日出金額
+    vn: Số tiền rút hàng ngày
+    mn: Өдөр тутмын татах хэмжээ
+    pt: Valor de retirada diário
+    es: Monto de retiro diario
+    fr: Montant de retrait quotidien
+    en: Daily withdrawal amount
+TOTAL_INCOME_WITHDRAW_INCOME:
+    zh: 累计提现额
+    zhtr: 累計提現額
+    ko: 누적 출금액
+    ja: 累積出金額
+    vn: Số tiền rút tích lũy
+    mn: Нийт татах хэмжээ
+    pt: Valor de retirada acumulado
+    es: Monto de retiro acumulado
+    fr: Montant de retrait cumulé
+    en: Total withdrawal amount
+TODAY_INCOME_TRANSFER_INCOME:
+    zh: 今日转账额
+    zhtr: 今日轉賬額
+    ko: 일일 이체액
+    ja: 日振込額
+    vn: Số tiền chuyển khoản hàng ngày
+    mn: Өдөр тутмын шилжүүлэх хэмжээ
+    pt: Valor de transferência diário
+    es: Monto de transferencia diario
+    fr: Montant de transfert quotidien
+    en: Daily transfer amount
+TOTAL_INCOME_TRANSFER_INCOME:
+    zh: 累计转账额
+    zhtr: 累計轉賬額
+    ko: 누적 이체액
+    ja: 累積振込額
+    vn: Số tiền chuyển khoản tích lũy
+    mn: Нийт шилжүүлэх хэмжээ
+    pt: Valor de transferência acumulado
+    es: Monto de transferencia acumulado
+    fr: Montant de transfert cumulé
+    en: Total transfer amount
+INVESTMENT_ABOUT_TO_EXPIRE:
+    zh: 投资即将过期
+    zhtr: 投資即將過期
+    ko: 투자가 곧 만료됨
+    ja: 投資が間もなく期限切れに
+    vn: Đầu tư sắp hết hạn
+    mn: Хөрөнгө оруулалт дуусах гэж байна
+    pt: Investimento prestes a expirar
+    es: Inversión a punto de expirar
+    fr: Investissement sur le point d'expirer
+    en: Investment about to expire
+NOVICE_DEPOSIT:
+    zh: 首次充值任务
+    zhtr: 首次充值任務
+    ko: 첫 입금 작업
+    ja: 初回入金タスク
+    vn: Nhiệm vụ nạp tiền lần đầu
+    mn: Анхны орлого даалгавар
+    pt: Tarefa de primeiro depósito
+    es: Tâche de premier dépôt
+    fr: Tâche de premier dépôt
+    en: First time deposit task
+NOVICE_INVEST:
+    zh: 首次投资任务
+    zhtr: 首次投資任務
+    ko: 첫 투자 작업
+    ja: 初回投資タスク
+    vn: Nhiệm vụ đầu tư lần đầu
+    mn: Анхны хөрөнгө оруулалтын даалгавар
+    pt: Tarefa de primeiro investimento
+    es: Tâche de premier investissement
+    fr: Tâche de premier investissement
+    en: First time invest task
+NOVICE_WELCOME:
+    zh: 新人礼
+    htr: 新人禮
+    ko: 환영 보상
+    ja: ウェルカム リワード
+    vn: Phần thưởng chào mừng
+    mn: Тавтай морилно уу урамшуулал
+    pt: Recompensa de boas-vindas
+    es: Recompensa de bienvenida
+    fr: Récompense de bienvenue
+    en: Welcome reward
+ANSWER:
+    zh: 学习任务
+    zhtr: 學習任務
+    ko: 학습 작업
+    ja: 学習タスク
+    vn: Nhiệm vụ học tập
+    mn: Сургалтын даалгавар
+    pt: Tarefa de aprendizagem
+    es: Tâche d'apprentissage
+    fr: Tâche d'apprentissage
+    en: Learning task
+READ_ARTICLE:
+    zh: 阅读任务
+    zhtr: 閱讀任務
+    ko: 매일 읽기 작업
+    ja: 毎日の読書タスク
+    vn: Nhiệm vụ đọc hàng ngày
+    mn: Өдөр бүр унших даалгавар
+    pt: Tarefa de leitura diária
+    es: Tâche de lecture quotidienne
+    fr: Tâche de lecture quotidienne
+    en: Daily read task
+WATCH_VIDEO:
+    zh: 查看任务
+    zhtr: 查看任務
+    ko: 매일 시청 작업
+    ja: 毎日の視聴タスク
+    vn: Nhiệm vụ xem hàng ngày
+    mn: Өдөр бүр харах даалгавар
+    pt: Tarefa de visualização diária
+    es: Tâche de visionnage quotidien
+    fr: Tâche de visionnage quotidien
+    en: Daily watch task

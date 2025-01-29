@@ -1,0 +1,805 @@
+- id: 115
+  user_id: 71
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:47
+  updated_at: 2023-12-26 17:03:47
+
+- id: 114
+  user_id: 70
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:47
+  updated_at: 2023-12-26 17:03:47
+
+- id: 113
+  user_id: 70
+  parent_id: 71
+  distance: 1
+  created_at: 2023-12-26 17:03:47
+  updated_at: 2023-12-26 17:03:47
+
+- id: 112
+  user_id: 69
+  parent_id: 1
+  distance: 3
+  created_at: 2023-12-26 17:03:47
+  updated_at: 2023-12-26 17:03:47
+
+- id: 111
+  user_id: 69
+  parent_id: 71
+  distance: 2
+  created_at: 2023-12-26 17:03:46
+  updated_at: 2023-12-26 17:03:46
+
+- id: 110
+  user_id: 69
+  parent_id: 70
+  distance: 1
+  created_at: 2023-12-26 17:03:46
+  updated_at: 2023-12-26 17:03:46
+
+- id: 109
+  user_id: 68
+  parent_id: 1
+  distance: 4
+  created_at: 2023-12-26 17:03:46
+  updated_at: 2023-12-26 17:03:46
+
+- id: 108
+  user_id: 68
+  parent_id: 71
+  distance: 3
+  created_at: 2023-12-26 17:03:46
+  updated_at: 2023-12-26 17:03:46
+
+- id: 107
+  user_id: 68
+  parent_id: 70
+  distance: 2
+  created_at: 2023-12-26 17:03:46
+  updated_at: 2023-12-26 17:03:46
+
+- id: 106
+  user_id: 68
+  parent_id: 69
+  distance: 1
+  created_at: 2023-12-26 17:03:46
+  updated_at: 2023-12-26 17:03:46
+
+- id: 105
+  user_id: 67
+  parent_id: 1
+  distance: 4
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 104
+  user_id: 67
+  parent_id: 71
+  distance: 3
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 103
+  user_id: 67
+  parent_id: 70
+  distance: 2
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 102
+  user_id: 67
+  parent_id: 69
+  distance: 1
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 101
+  user_id: 66
+  parent_id: 1
+  distance: 5
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 100
+  user_id: 66
+  parent_id: 71
+  distance: 4
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 99
+  user_id: 66
+  parent_id: 70
+  distance: 3
+  created_at: 2023-12-26 17:03:45
+  updated_at: 2023-12-26 17:03:45
+
+- id: 98
+  user_id: 66
+  parent_id: 69
+  distance: 2
+  created_at: 2023-12-26 17:03:44
+  updated_at: 2023-12-26 17:03:44
+
+- id: 97
+  user_id: 66
+  parent_id: 68
+  distance: 1
+  created_at: 2023-12-26 17:03:44
+  updated_at: 2023-12-26 17:03:44
+
+- id: 96
+  user_id: 65
+  parent_id: 1
+  distance: 5
+  created_at: 2023-12-26 17:03:44
+  updated_at: 2023-12-26 17:03:44
+
+- id: 95
+  user_id: 65
+  parent_id: 71
+  distance: 4
+  created_at: 2023-12-26 17:03:44
+  updated_at: 2023-12-26 17:03:44
+
+- id: 94
+  user_id: 65
+  parent_id: 70
+  distance: 3
+  created_at: 2023-12-26 17:03:44
+  updated_at: 2023-12-26 17:03:44
+
+- id: 93
+  user_id: 65
+  parent_id: 69
+  distance: 2
+  created_at: 2023-12-26 17:03:44
+  updated_at: 2023-12-26 17:03:44
+
+- id: 92
+  user_id: 65
+  parent_id: 68
+  distance: 1
+  created_at: 2023-12-26 17:03:43
+  updated_at: 2023-12-26 17:03:43
+
+- id: 91
+  user_id: 64
+  parent_id: 1
+  distance: 4
+  created_at: 2023-12-26 17:03:43
+  updated_at: 2023-12-26 17:03:43
+
+- id: 90
+  user_id: 64
+  parent_id: 71
+  distance: 3
+  created_at: 2023-12-26 17:03:43
+  updated_at: 2023-12-26 17:03:43
+
+- id: 89
+  user_id: 64
+  parent_id: 70
+  distance: 2
+  created_at: 2023-12-26 17:03:43
+  updated_at: 2023-12-26 17:03:43
+
+- id: 88
+  user_id: 64
+  parent_id: 69
+  distance: 1
+  created_at: 2023-12-26 17:03:43
+  updated_at: 2023-12-26 17:03:43
+
+- id: 87
+  user_id: 63
+  parent_id: 1
+  distance: 5
+  created_at: 2023-12-26 17:03:43
+  updated_at: 2023-12-26 17:03:43
+
+- id: 86
+  user_id: 63
+  parent_id: 71
+  distance: 4
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 85
+  user_id: 63
+  parent_id: 70
+  distance: 3
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 84
+  user_id: 63
+  parent_id: 69
+  distance: 2
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 83
+  user_id: 63
+  parent_id: 64
+  distance: 1
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 82
+  user_id: 62
+  parent_id: 1
+  distance: 4
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 81
+  user_id: 62
+  parent_id: 71
+  distance: 3
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 80
+  user_id: 62
+  parent_id: 70
+  distance: 2
+  created_at: 2023-12-26 17:03:42
+  updated_at: 2023-12-26 17:03:42
+
+- id: 79
+  user_id: 62
+  parent_id: 69
+  distance: 1
+  created_at: 2023-12-26 17:03:41
+  updated_at: 2023-12-26 17:03:41
+
+- id: 78
+  user_id: 61
+  parent_id: 1
+  distance: 4
+  created_at: 2023-12-26 17:03:41
+  updated_at: 2023-12-26 17:03:41
+
+- id: 77
+  user_id: 61
+  parent_id: 71
+  distance: 3
+  created_at: 2023-12-26 17:03:41
+  updated_at: 2023-12-26 17:03:41
+
+- id: 76
+  user_id: 61
+  parent_id: 70
+  distance: 2
+  created_at: 2023-12-26 17:03:41
+  updated_at: 2023-12-26 17:03:41
+
+- id: 75
+  user_id: 61
+  parent_id: 69
+  distance: 1
+  created_at: 2023-12-26 17:03:41
+  updated_at: 2023-12-26 17:03:41
+
+- id: 74
+  user_id: 60
+  parent_id: 1
+  distance: 5
+  created_at: 2023-12-26 17:03:41
+  updated_at: 2023-12-26 17:03:41
+
+- id: 73
+  user_id: 60
+  parent_id: 71
+  distance: 4
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 72
+  user_id: 60
+  parent_id: 70
+  distance: 3
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 71
+  user_id: 60
+  parent_id: 69
+  distance: 2
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 70
+  user_id: 60
+  parent_id: 64
+  distance: 1
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 69
+  user_id: 59
+  parent_id: 1
+  distance: 6
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 68
+  user_id: 59
+  parent_id: 71
+  distance: 5
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 67
+  user_id: 59
+  parent_id: 70
+  distance: 4
+  created_at: 2023-12-26 17:03:40
+  updated_at: 2023-12-26 17:03:40
+
+- id: 66
+  user_id: 59
+  parent_id: 69
+  distance: 3
+  created_at: 2023-12-26 17:03:39
+  updated_at: 2023-12-26 17:03:39
+
+- id: 65
+  user_id: 59
+  parent_id: 64
+  distance: 2
+  created_at: 2023-12-26 17:03:39
+  updated_at: 2023-12-26 17:03:39
+
+- id: 64
+  user_id: 59
+  parent_id: 63
+  distance: 1
+  created_at: 2023-12-26 17:03:39
+  updated_at: 2023-12-26 17:03:39
+
+- id: 63
+  user_id: 58
+  parent_id: 1
+  distance: 6
+  created_at: 2023-12-26 17:03:39
+  updated_at: 2023-12-26 17:03:39
+
+- id: 62
+  user_id: 58
+  parent_id: 71
+  distance: 5
+  created_at: 2023-12-26 17:03:39
+  updated_at: 2023-12-26 17:03:39
+
+- id: 61
+  user_id: 58
+  parent_id: 70
+  distance: 4
+  created_at: 2023-12-26 17:03:39
+  updated_at: 2023-12-26 17:03:39
+
+- id: 60
+  user_id: 58
+  parent_id: 69
+  distance: 3
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 59
+  user_id: 58
+  parent_id: 64
+  distance: 2
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 58
+  user_id: 58
+  parent_id: 63
+  distance: 1
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 57
+  user_id: 57
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 56
+  user_id: 57
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 55
+  user_id: 56
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 54
+  user_id: 56
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:38
+  updated_at: 2023-12-26 17:03:38
+
+- id: 53
+  user_id: 55
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:37
+  updated_at: 2023-12-26 17:03:37
+
+- id: 52
+  user_id: 54
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:37
+  updated_at: 2023-12-26 17:03:37
+
+- id: 51
+  user_id: 53
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:37
+  updated_at: 2023-12-26 17:03:37
+
+- id: 50
+  user_id: 52
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:37
+  updated_at: 2023-12-26 17:03:37
+
+- id: 49
+  user_id: 51
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:37
+  updated_at: 2023-12-26 17:03:37
+
+- id: 48
+  user_id: 50
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:37
+  updated_at: 2023-12-26 17:03:37
+
+- id: 47
+  user_id: 49
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 46
+  user_id: 48
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 45
+  user_id: 47
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 44
+  user_id: 46
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 43
+  user_id: 45
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 42
+  user_id: 44
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 41
+  user_id: 44
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:36
+  updated_at: 2023-12-26 17:03:36
+
+- id: 40
+  user_id: 43
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:35
+  updated_at: 2023-12-26 17:03:35
+
+- id: 39
+  user_id: 43
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:35
+  updated_at: 2023-12-26 17:03:35
+
+- id: 38
+  user_id: 42
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:35
+  updated_at: 2023-12-26 17:03:35
+
+- id: 37
+  user_id: 42
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:35
+  updated_at: 2023-12-26 17:03:35
+
+- id: 36
+  user_id: 41
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:35
+  updated_at: 2023-12-26 17:03:35
+
+- id: 35
+  user_id: 41
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:35
+  updated_at: 2023-12-26 17:03:35
+
+- id: 34
+  user_id: 40
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 33
+  user_id: 40
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 32
+  user_id: 39
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 31
+  user_id: 39
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 30
+  user_id: 38
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 29
+  user_id: 38
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 28
+  user_id: 37
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:34
+  updated_at: 2023-12-26 17:03:34
+
+- id: 27
+  user_id: 37
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:33
+  updated_at: 2023-12-26 17:03:33
+
+- id: 26
+  user_id: 36
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:33
+  updated_at: 2023-12-26 17:03:33
+
+- id: 25
+  user_id: 36
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:33
+  updated_at: 2023-12-26 17:03:33
+
+- id: 24
+  user_id: 35
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:33
+  updated_at: 2023-12-26 17:03:33
+
+- id: 23
+  user_id: 34
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:33
+  updated_at: 2023-12-26 17:03:33
+
+- id: 22
+  user_id: 33
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:33
+  updated_at: 2023-12-26 17:03:33
+
+- id: 21
+  user_id: 32
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:32
+  updated_at: 2023-12-26 17:03:32
+
+- id: 20
+  user_id: 31
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:32
+  updated_at: 2023-12-26 17:03:32
+
+- id: 19
+  user_id: 30
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:32
+  updated_at: 2023-12-26 17:03:32
+
+- id: 18
+  user_id: 30
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:32
+  updated_at: 2023-12-26 17:03:32
+
+- id: 17
+  user_id: 29
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:32
+  updated_at: 2023-12-26 17:03:32
+
+- id: 16
+  user_id: 29
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:32
+  updated_at: 2023-12-26 17:03:32
+
+- id: 15
+  user_id: 28
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 14
+  user_id: 28
+  parent_id: 26
+  distance: 1
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 13
+  user_id: 27
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 12
+  user_id: 26
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 11
+  user_id: 25
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 10
+  user_id: 24
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 9
+  user_id: 23
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:31
+  updated_at: 2023-12-26 17:03:31
+
+- id: 8
+  user_id: 22
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:30
+  updated_at: 2023-12-26 17:03:30
+
+- id: 7
+  user_id: 21
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:30
+  updated_at: 2023-12-26 17:03:30
+
+- id: 6
+  user_id: 17
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:30
+  updated_at: 2023-12-26 17:03:30
+
+- id: 5
+  user_id: 5
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:30
+  updated_at: 2023-12-26 17:03:30
+
+- id: 4
+  user_id: 4
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:30
+  updated_at: 2023-12-26 17:03:30
+
+- id: 3
+  user_id: 3
+  parent_id: 1
+  distance: 2
+  created_at: 2023-12-26 17:03:30
+  updated_at: 2023-12-26 17:03:30
+
+- id: 2
+  user_id: 3
+  parent_id: 2
+  distance: 1
+  created_at: 2023-12-26 17:03:29
+  updated_at: 2023-12-26 17:03:29
+
+- id: 1
+  user_id: 2
+  parent_id: 1
+  distance: 1
+  created_at: 2023-12-26 17:03:29
+  updated_at: 2023-12-26 17:03:29
+

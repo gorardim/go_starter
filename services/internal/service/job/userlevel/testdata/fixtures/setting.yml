@@ -1,0 +1,70 @@
+- id: 21
+  key: "h5_post_url"
+  value: "{\"en\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\",\"zh\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\"}"
+  description: "h5 post url"
+  created_at: 2024-01-06 14:38:44
+  updated_at: 2024-01-06 14:38:44
+
+- id: 20
+  key: "h5_news_url"
+  value: "{\"en\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\",\"zh\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\"}"
+  description: "h5 news url"
+  created_at: 2024-01-06 14:38:44
+  updated_at: 2024-01-06 14:38:44
+
+- id: 19
+  key: "h5_video_url"
+  value: "{\"en\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\",\"zh\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\"}"
+  description: "h5 Video url"
+  created_at: 2024-01-06 14:38:44
+  updated_at: 2024-01-06 14:38:44
+
+- id: 18
+  key: "invite_h5_url"
+  value: "{\"en\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\",\"zh\":\"https://h5.ykypcz.vip/auth/register?inviteCode=\"}"
+  description: "invite h5 url"
+  created_at: 2024-01-06 14:38:44
+  updated_at: 2024-01-06 14:38:44
+
+- id: 17
+  key: "customer_service_link"
+  value: "https://direct.lc.chat/16972398/"
+  description: "https://direct.lc.chat/16972398/"
+  created_at: 2024-01-05 11:26:49
+  updated_at: 2024-01-05 11:26:49
+
+- id: 16
+  key: "score_transfer_service_fee_rate"
+  value: "0.01"
+  description: "score_transfer_service_fee_rate"
+  created_at: 2023-12-26 09:12:11
+  updated_at: 2023-12-26 19:27:17
+
+- id: 15
+  key: "about_us_link"
+  value: "https://about.ykypcz.xyz/about.html"
+  description: "about_us_link"
+  created_at: 2023-12-26 09:12:11
+  updated_at: 2023-12-26 19:27:17
+
+- id: 14
+  key: "duration_and_rate_invest_contract"
+  value: "[{\"days\":30,\"rate\":0.05},{\"days\":90,\"rate\":0.18},{\"days\":180,\"rate\":0.42},{\"days\":270,\"rate\":0.72},{\"days\":360,\"rate\":1.08},{\"days\":720,\"rate\":2.4}]"
+  description: "duration_and_rate_invest_contract"
+  created_at: 2023-12-23 14:30:21
+  updated_at: 2023-12-26 15:41:00
+
+- id: 13
+  key: "deposit_service_charge_rate"
+  value: "0.001"
+  description: "deposit service chargerate"
+  created_at: 2023-12-13 04:17:46
+  updated_at: 2023-12-13 04:17:46
+
+- id: 12
+  key: "deposit_currency_exchange_rate"
+  value: "[{\"rate\":7,\"name\":\"CNY\",\"symbol\":\"¥\"}]"
+  description: "Deposit Currency Exchange Rate"
+  created_at: 2023-11-21 12:44:44
+  updated_at: 2023-11-21 12:44:44
+
