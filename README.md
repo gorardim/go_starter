@@ -1,21 +1,19 @@
+# server api: localhost:7702
 
-# server api: api-test.ykypcz.vip
-- api-test.ykypcz.vip/api  api接口
-- api-test.ykypcz.vip/admin 后台管理
+-   localhost:7702/api api 接口
+-   localhost:7703/admin 后台管理
 
 # swagger
-- api swagger 文档: http://api-test.ykypcz.vip/api/_swagger
-- admin api swagger 文档: http://api-test.ykypcz.vip/admin/_swagger
 
-
-
+-   api swagger 文档: http://localhost:7702/api/\_swagger
+-   admin api swagger 文档: http://localhost:7703/admin/\_swagger
 
 ```nodejs
 const fs = require('fs')
 const https = require('https')
 /**
 curl --request POST \
-  --url https://api-test.ykypcz.vip/admin/unsafe_api_just_usable_testing/build_test_case \
+  --url https://localhost:7703/admin/unsafe_api_just_usable_testing/build_test_case \
   --header 'Accept-Language: ' \
   --header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXMiOnsidXNlcl9pZCI6IjEwMDAxIn0sImV4cCI6MTczNTA1MDg4Nn0.1omsZu2XwTwEMjiKGR0HyLAwhrvEM_91vBBgDse8-4g' \
   --header 'content-type: application/json' \
@@ -52,7 +50,7 @@ const data = JSON.stringify({
 })
 
 const options = {
-  hostname: 'api-test.ykypcz.vip',
+  hostname: 'localhost:7702',
   port: 443,
   path: '/admin/unsafe_api_just_usable_testing/build_test_case',
   method: 'POST',
