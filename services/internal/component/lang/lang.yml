@@ -141,94 +141,6 @@ FINISHED:
     es: Finalizado
     fr: Terminé
     en: Finished
-INCOME:
-    zh: 收入
-    zhtr: 收入
-    ko: 수입
-    ja: 収入
-    vn: Thu nhập
-    mn: Орлога
-    pt: Renda
-    es: Ingresos
-    fr: Revenu
-    en: Income
-INCOME_RECEIVE:
-    zh: 领取收益
-    zhtr: 領取收益
-    ko: 수입 수령
-    ja: 収入受取
-    vn: Nhận thu nhập
-    mn: Орлогыг хүлээн авах
-    pt: Receber renda
-    es: Recepción de ingresos
-    fr: Revenu reçu
-    en: Income receive
-INVEST:
-    zh: 投资
-    zhtr: 投資
-    ko: 투자
-    ja: 投資
-    vn: Đầu tư
-    mn: Хөрөнгө оруулах
-    pt: Investir
-    es: Invertir
-    fr: Investir
-    en: Invest
-INVEST_FINISH:
-    zh: 投资完成
-    zhtr: 投資完成
-    ko: 투자 완료
-    ja: 投資完了
-    vn: Hoàn thành đầu tư
-    mn: Хөрөнгө оруулалтыг дуусгах
-    pt: Conclusão do investimento
-    es: Finalización de la inversión
-    fr: Fin de l'investissement
-    en: Invest finish
-INVEST_INCOME:
-    zh: 投资
-    zhtr: 投資
-    ko: 투자
-    ja: 投資
-    vn: Đầu tư
-    mn: Хөрөнгө оруулах
-    pt: Investir
-    es: Invertir
-    fr: Investir
-    en: Invest
-INVEST_INCOME_RECORD:
-    zh: 投资收益
-    zhtr: 投資收益
-    ko: 투자
-    ja: 投資
-    vn: Đầu tư
-    mn: Хөрөнгө оруулах
-    pt: Investir
-    es: Invertir
-    fr: Investir
-    en: Invest
-INVEST_INCOME_POINT:
-    zh: 投资积分
-    zhtr: 投資積分
-    ko: 투자 점수
-    ja: 投資スコア
-    vn: Điểm đầu tư
-    mn: Хөрөнгө оруулалтын оноо
-    pt: Pontuação de investimento
-    es: Puntuación de inversión
-    fr: Score d'investissement
-    en: Invest score
-INVEST_SCORE:
-    zh: 投资
-    zhtr: 投資
-    ko: 투자
-    ja: 投資
-    vn: Đầu tư
-    mn: Хөрөнгө оруулах
-    pt: Investir
-    es: Invertir
-    fr: Investir
-    en: Invest
 LEARN:
     zh: 学习任务
     zhtr: 學習任務
@@ -350,17 +262,6 @@ RELEASING:
     es: Liberación
     fr: Libération
     en: Releasing
-RWA:
-    zh: RWA研究
-    zhtr: RWA研究
-    ko: RWA 연구
-    ja: RWA研究
-    vn: Nghiên cứu RWA
-    mn: RWA судалгаа
-    pt: Pesquisa RWA
-    es: Investigación RWA
-    fr: Recherche RWA
-    en: RWA research
 SCORE_TRANSFER:
     zh: 积分转让
     zhtr: 積分轉讓
@@ -438,17 +339,6 @@ TASK:
     es: Tarea
     fr: Tâche
     en: Task
-TASK_INCOME:
-    zh: 任务
-    zhtr: 任務
-    ko: 작업
-    ja: タスク
-    vn: Nhiệm vụ
-    mn: Даалгавар
-    pt: Tarefa
-    es: Tarea
-    fr: Tâche
-    en: Task
 TASK_SCORE:
     zh: 任务
     zhtr: 任務
@@ -471,17 +361,6 @@ TEAM_DIFF_LEVEL:
     es: Nivel de diferencia de equipo
     fr: Différence de niveau d'équipe
     en: Team Diff Level
-TEAM_INCOME:
-    zh: 团队
-    zhtr: 團隊
-    ko: 팀
-    ja: チーム
-    vn: Đội
-    mn: Баг
-    pt: Equipe
-    es: Equipo
-    fr: Équipe
-    en: Team
 TEAM_SAME_LEVEL:
     zh: 平级收益
     zhtr: 平級收益
@@ -494,17 +373,6 @@ TEAM_SAME_LEVEL:
     fr: Même niveau d'équipe
     en: Team Same Level
 TEAM_SCORE:
-    zh: 分公司
-    zhtr: 分公司
-    en: Subcompany
-    es: rama
-    ko: 지점
-    ja: 支店
-    vn: Chi nhánh
-    mn: Салбар
-    pt: Filial
-    fr: Succursale
-CLUB_INCOME:
     zh: 分公司
     zhtr: 分公司
     en: Subcompany
@@ -537,17 +405,6 @@ TRAVEL_SCORE:
     es: Compra
     fr: Achat
     en: Purchase
-TRANSFER_INCOME:
-    zh: 转账
-    zhtr: 轉賬
-    ko: 전송
-    ja: 転送
-    vn: Chuyển khoản
-    mn: Шилжүүлэх
-    pt: Transferir
-    es: Transferir
-    fr: Transfert
-    en: Transfer
 TRANSFER_SCORE:
     zh: 转账
     zhtr: 轉賬
@@ -582,17 +439,6 @@ VIP_CHECK_IN_TWO:
     fr: Partage quotidien
     en: Sharing task
 WITHDRAW:
-    zh: 提现
-    zhtr: 提現
-    ko: 출금
-    ja: 引き出し
-    vn: Rút tiền
-    mn: Татах
-    pt: Retirar
-    es: Retirar
-    fr: Retrait
-    en: Withdraw
-WITHDRAW_INCOME:
     zh: 提现
     zhtr: 提現
     ko: 출금
@@ -912,17 +758,6 @@ ASSETS_NOT_ENOUGH:
     es: Activos insuficientes
     fr: Actifs insuffisants
     en: Assets not enough
-INCOME_NOT_ENOUGH:
-    zh: 收益不足
-    zhtr: 收益不足
-    ko: 수입이 부족함
-    ja: 収入不足
-    vn: Thu nhập không đủ
-    mn: Орлога хүрэлцэхгүй байна
-    pt: Renda insuficiente
-    es: Ingresos insuficientes
-    fr: Revenu insuffisant
-    en: Income not enough
 ACCOUNT_TYPES_IS_EMPTY:
     zh: 账户类型为空
     zhtr: 賬戶類型為空
@@ -956,28 +791,6 @@ PAY_PASSWORD_ERROR:
     es: Error en contraseña de pago
     fr: Erreur de mot de passe de paiement
     en: Pay password error
-INVEST_AMOUNT_MUST_BE_GREATER_THAN:
-    zh: "投资金额必须>=%sUSDT"
-    zhtr: "投資金額必須>=%sUSDT"
-    ko: "투자 금액은 %sUSDT 이상이어야 함"
-    ja: "投資額は%sUSDT以上でなければならない"
-    vn: "Số tiền đầu tư phải >=%sUSDT"
-    mn: "Хөрөнгө оруулалтын хэмжээ %sUSDT-аас дээш байх ёстой"
-    pt: "Montante de investimento deve ser >=%sUSDT"
-    es: "Monto de inversión debe ser >=%sUSDT"
-    fr: "Montant d'investissement doit être >=%sUSDT"
-    en: "Invest amount must be >=%sUSDT"
-INVEST_AMOUNT_MUST_BE_LESS_THAN:
-    zh: "投资金额必须<=%sUSDT"
-    zhtr: "投資金額必須<=%sUSDT"
-    ko: "투자 금액은 %sUSDT 이하여야 함"
-    ja: "投資額は%sUSDT以下でなければならない"
-    vn: "Số tiền đầu tư phải <=%sUSDT"
-    mn: "Хөрөнгө оруулалтын хэмжээ %sUSDT-аас доош байх ёстой"
-    pt: "Montante de investimento deve ser <=%sUSDT"
-    es: "Monto de inversión debe ser <=%sUSDT"
-    fr: "Montant d'investissement doit être <=%sUSDT"
-    en: "Invest amount must be <=%sUSDT"
 RESET_PASSWORD_TIMES_IS_MAX:
     zh: 重置密码次数已达上限
     zhtr: 重置密碼次數已達上限
@@ -1145,17 +958,6 @@ OLD_PASSWORD_NOT_MATCH:
     es: La antigua contraseña no coincide
     fr: L'ancien mot de passe ne correspond pas
     en: Old password not match
-INCOME_TRANSFER:
-    zh: 转账
-    zhtr: 轉賬
-    ko: 전송
-    ja: 転送
-    vn: Chuyển khoản
-    mn: Шилжүүлэх
-    pt: Transferir
-    es: Transferir
-    fr: Transfert
-    en: Transfer
 BALANCE_TRANSFER:
     zh: 转账
     zhtr: 轉賬
@@ -1277,17 +1079,6 @@ DAYS:
     es: Días
     fr: Jours
     en: Days
-TODAY_INVEST_SCORE:
-    zh: 今日投资积分
-    zhtr: 今日投資積分
-    ko: 오늘의 투자 포인트
-    ja: 今日の投資ポイント
-    vn: Điểm đầu tư hôm nay
-    mn: Өнөөдрийн хөрөнгө оруулалтын оноо
-    pt: Pontos de investimento de hoje
-    es: Puntos de inversión de hoy
-    fr: Points d'investissement d'aujourd'hui
-    en: Today's investment points
 TODAY_TASK_SCORE:
     zh: 今日任务积分
     zhtr: 今日任務積分
@@ -1332,28 +1123,6 @@ TODAY_WITHDRAW_SCORE:
     es: Tarifa de servicio de hoy
     fr: Frais de service d'aujourd'hui
     en: Today's service fee
-TODAY_TEAM_SCORE:
-    zh: 今日收益积分
-    zhtr: 今日收益積分
-    ko: 오늘의 수익 포인트
-    ja: 今日の収益ポイント
-    vn: Điểm thu nhập hôm nay
-    mn: Өнөөдрийн ашиг олголтын оноо
-    pt: Pontos de rendimento de hoje
-    es: Puntos de ingresos de hoy
-    fr: Points de revenus d'aujourd'hui
-    en: Today's income points
-TOTAL_INVEST_SCORE:
-    zh: 累计投资积分
-    zhtr: 累計投資積分
-    ko: 누적 투자 포인트
-    ja: 累積投資ポイント
-    vn: Tổng điểm đầu tư tích lũy
-    mn: Нийт хөрөнгө оруулалтын оноо
-    pt: Pontos de investimento acumulados
-    es: Puntos de inversión acumulados
-    fr: Points d'investissement cumulés
-    en: Total investment points
 TOTAL_TASK_SCORE:
     zh: 累计任务积分
     zhtr: 累計任務積分
@@ -1398,138 +1167,6 @@ TOTAL_WITHDRAW_SCORE:
     es: Tarifa de servicio acumulada
     fr: Frais de service cumulés
     en: Total service fee
-TOTAL_TEAM_SCORE:
-    zh: 累计收益积分
-    zhtr: 累計收益積分
-    ko: 누적 수익 포인트
-    ja: 累積収益ポイント
-    vn: Tổng điểm thu nhập tích lũy
-    mn: Нийт ашиг олголтын оноо
-    pt: Pontos de rendimento acumulados
-    es: Puntos de ingresos acumulados
-    fr: Points de revenus cumulés
-    en: Total income points
-TODAY_INCOME_INVEST_INCOME:
-    zh: 今日投资收益
-    zhtr: 今日投資收益
-    ko: 일일 투자 수익
-    ja: 日投資収益
-    vn: Lợi nhuận đầu tư hàng ngày
-    mn: Өдөр тутмын хөрөнгө оруулалтын ашиг
-    pt: Rendimento de investimento diário
-    es: Rendimiento de inversión diario
-    fr: Rendement d'investissement quotidien
-    en: Daily investment earnings
-TOTAL_INCOME_INVEST_INCOME:
-    zh: 累计投资收益
-    zhtr: 累計投資收益
-    ko: 누적 투자 수익
-    ja: 累積投資収益
-    vn: Lợi nhuận đầu tư tích lũy
-    mn: Нийт хөрөнгө оруулалтын ашиг
-    pt: Rendimento de investimento acumulado
-    es: Rendimiento de inversión acumulado
-    fr: Rendement d'investissement cumulé
-    en: Total investment earnings
-TODAY_INCOME_TEAM_INCOME:
-    zh: 今日团队收益
-    zhtr: 今日團隊收益
-    ko: 일일 팀 수익
-    ja: 日チーム収益
-    vn: Lợi nhuận nhóm hàng ngày
-    mn: Өдөр тутмын багийн ашиг
-    pt: Rendimento de equipe diário
-    es: Rendimiento del equipo diario
-    fr: Rendement d'équipe quotidien
-    en: Daily team earnings
-TOTAL_INCOME_TEAM_INCOME:
-    zh: 累计团队收益
-    zhtr: 累計團隊收益
-    ko: 누적 팀 수익
-    ja: 累積チーム収益
-    vn: Lợi nhuận nhóm tích lũy
-    mn: Нийт багийн ашиг
-    pt: Rendimento de equipe acumulado
-    es: Rendimiento del equipo acumulado
-    fr: Rendement d'équipe cumulé
-    en: Total team earnings
-TODAY_INCOME_TASK_INCOME:
-    zh: 今日任务收益
-    zhtr: 今日任務收益
-    ko: 일일 임무 수익
-    ja: 日タスク収益
-    vn: Lợi nhuận nhiệm vụ hàng ngày
-    mn: Өдөр тутмын даалгаврын ашиг
-    pt: Rendimento de tarefa diário
-    es: Rendimiento de tarea diario
-    fr: Rendement de tâche quotidien
-    en: Daily task earnings
-TOTAL_INCOME_TASK_INCOME:
-    zh: 累计任务收益
-    zhtr: 累計任務收益
-    ko: 누적 임무 수익
-    ja: 累積タスク収益
-    vn: Lợi nhuận nhiệm vụ tích lũy
-    mn: Нийт даалгаврын ашиг
-    pt: Rendimento de tarefa acumulado
-    es: Rendimiento de tarea acumulado
-    fr: Rendement de tâche cumulé
-    en: Total task earnings
-TODAY_INCOME_WITHDRAW_INCOME:
-    zh: 今日提现额
-    zhtr: 今日提現額
-    ko: 일일 출금액
-    ja: 日出金額
-    vn: Số tiền rút hàng ngày
-    mn: Өдөр тутмын татах хэмжээ
-    pt: Valor de retirada diário
-    es: Monto de retiro diario
-    fr: Montant de retrait quotidien
-    en: Daily withdrawal amount
-TOTAL_INCOME_WITHDRAW_INCOME:
-    zh: 累计提现额
-    zhtr: 累計提現額
-    ko: 누적 출금액
-    ja: 累積出金額
-    vn: Số tiền rút tích lũy
-    mn: Нийт татах хэмжээ
-    pt: Valor de retirada acumulado
-    es: Monto de retiro acumulado
-    fr: Montant de retrait cumulé
-    en: Total withdrawal amount
-TODAY_INCOME_TRANSFER_INCOME:
-    zh: 今日转账额
-    zhtr: 今日轉賬額
-    ko: 일일 이체액
-    ja: 日振込額
-    vn: Số tiền chuyển khoản hàng ngày
-    mn: Өдөр тутмын шилжүүлэх хэмжээ
-    pt: Valor de transferência diário
-    es: Monto de transferencia diario
-    fr: Montant de transfert quotidien
-    en: Daily transfer amount
-TOTAL_INCOME_TRANSFER_INCOME:
-    zh: 累计转账额
-    zhtr: 累計轉賬額
-    ko: 누적 이체액
-    ja: 累積振込額
-    vn: Số tiền chuyển khoản tích lũy
-    mn: Нийт шилжүүлэх хэмжээ
-    pt: Valor de transferência acumulado
-    es: Monto de transferencia acumulado
-    fr: Montant de transfert cumulé
-    en: Total transfer amount
-INVESTMENT_ABOUT_TO_EXPIRE:
-    zh: 投资即将过期
-    zhtr: 投資即將過期
-    ko: 투자가 곧 만료됨
-    ja: 投資が間もなく期限切れに
-    vn: Đầu tư sắp hết hạn
-    mn: Хөрөнгө оруулалт дуусах гэж байна
-    pt: Investimento prestes a expirar
-    es: Inversión a punto de expirar
-    fr: Investissement sur le point d'expirer
-    en: Investment about to expire
 NOVICE_DEPOSIT:
     zh: 首次充值任务
     zhtr: 首次充值任務
@@ -1541,17 +1178,6 @@ NOVICE_DEPOSIT:
     es: Tâche de premier dépôt
     fr: Tâche de premier dépôt
     en: First time deposit task
-NOVICE_INVEST:
-    zh: 首次投资任务
-    zhtr: 首次投資任務
-    ko: 첫 투자 작업
-    ja: 初回投資タスク
-    vn: Nhiệm vụ đầu tư lần đầu
-    mn: Анхны хөрөнгө оруулалтын даалгавар
-    pt: Tarefa de primeiro investimento
-    es: Tâche de premier investissement
-    fr: Tâche de premier investissement
-    en: First time invest task
 NOVICE_WELCOME:
     zh: 新人礼
     htr: 新人禮
